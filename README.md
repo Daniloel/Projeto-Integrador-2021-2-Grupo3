@@ -7,9 +7,13 @@
  1- Dadas as necessiades do cliente, formular o que será entregue na primeira sprint;
 
 2- Sprint 1: 
+
 	1° selecionar os dados que serão utilizados, 
-	2° decisão de ser um site, 
+	
+2° Decidimos que o melhor jeito de levar dados precisos e coerentes para a população seria criar um site que em um primeiro momento mostre informações sobre o Covid, e também dados sobre a situação do mesmo para o Estado de São Paulo.
+	
 	3° criação do protótipo(wireframe) do projeto; 
+	
 	4° criação da apresentação do protótipo; 
 
 
