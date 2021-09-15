@@ -1,10 +1,10 @@
 # Fatec Profº Jessen Vidal, SJC - Grupo_03 Primeiro Semestre
 
-##Equipe:
+### Equipe:
 1-Leonardo Adler da Silva (Scrum Master); 
 2-Eduardo; 3-Renan; 4-Geralmir; 5-João Machado; 6-João Epifânio; 7-Danilo; 8-Michael; 9-Antônio Souza; 10-Gabriel Depiro;
 
-##Relevância do projeto:
+### Relevância do projeto:
 
 ## Descrição do Projeto
 <p align="left"> Este projeto tem como objetivo desenvolver um painel que forneça e informe as estatísticas e gráficos dos dados relacionados a Covid-19 no estado de São Paulo. O mesmo também irá instruir os funcionários a seguirem os protocolos das autoridades sanitárias para não proliferação do vírus, além de informar os números atualizados de contaminados e vacinados..</p>.
