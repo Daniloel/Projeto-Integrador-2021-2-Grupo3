@@ -12,9 +12,13 @@
 
 ## Backlog do projeto:(A fazer)
 1- Dadas as necessidades do cliente, formular o que será entregue em cada sprint;
+
 S1= Wireframe/Protótipo 1(visual)
+
 S2= Protótipo 2 funcional(teste pelo menos das funcionalidades)
+
 S3= Programa com as funcionalidades básicas/mais importantes
+
 S4= Programa pronto e refinado
 
 
