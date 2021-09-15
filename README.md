@@ -2,7 +2,7 @@
 
 ## Equipe:
 1-Leonardo Adler da Silva (Scrum Master); 
-2-Eduardo; 3-Renan; 4-Geralmir; 5-João Vitor Fernandes Machado; 6-João Epifânio dos Santos; 7-Danilo Verginio; 8-Michael; 9-Antônio Souza; 10-Gabriel Depiro;
+2-Eduardo Pedro A dos Reis; 3-Renan; 4-Geralmir; 5-João Vitor Fernandes Machado; 6-João Epifânio dos Santos; 7-Danilo Verginio; 8-Michael; 9-Antônio Souza; 10-Gabriel Depiro;
 
 ## Relevância do projeto:(A fazer)
 
