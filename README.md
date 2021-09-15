@@ -1,4 +1,4 @@
-# Fatec Profº Jessen Vidal, SJC - Grupo_03 Primeiro Semestre teste branch
+# Fatec Profº Jessen Vidal, SJC - Grupo_03 Primeiro Semestre
 
 ## Equipe:
 1-Leonardo Adler da Silva (Scrum Master); 
