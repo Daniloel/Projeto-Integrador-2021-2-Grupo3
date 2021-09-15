@@ -1,4 +1,4 @@
-# Fatec Profº Jessen Vidal, SJC - Grupo_03 Primeiro Semestre teste branch
+# Fatec Profº Jessen Vidal, SJC - Grupo_03 Primeiro Semestre teste branch 2
 
 ### Backlog sprint 1:
  1- Dadas as necessiades do cliente, formular o que será entregue na primeira sprint;
