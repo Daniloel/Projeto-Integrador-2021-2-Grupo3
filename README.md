@@ -11,7 +11,11 @@
 <p align="left"> Este projeto tem como objetivo desenvolver um painel que forneça e informe as estatísticas e gráficos dos dados relacionados a Covid-19 no estado de São Paulo.   O mesmo também irá instruir os funcionários a seguirem os protocolos das autoridades sanitárias para não proliferação do vírus, além de informar os números atualizados de contaminados e vacinados..</p>.
 
 ## Backlog do projeto:(A fazer)
-1- Dadas as necessiades do cliente, formular o que será entregue em cada sprint;
+1- Dadas as necessidades do cliente, formular o que será entregue em cada sprint;
+S1= Wireframe/Protótipo 1(visual)
+S2= Protótipo 2 funcional(teste pelo menos das funcionalidades)
+S3= Programa com as funcionalidades básicas/mais importantes
+S4= Programa pronto e refinado
 
 
 ### Backlog sprint 1:
