@@ -11,19 +11,22 @@
 <p align="left"> Este projeto tem como objetivo desenvolver um painel que forneça e informe as estatísticas e gráficos dos dados relacionados a Covid-19 no estado de São Paulo.   O mesmo também irá instruir os funcionários a seguirem os protocolos das autoridades sanitárias para não proliferação do vírus, além de informar os números atualizados de contaminados e vacinados..</p>.
 
 ## Backlog do projeto:(A fazer)
+1- Dadas as necessiades do cliente, formular o que será entregue em cada sprint;
+
 
 ### Backlog sprint 1:
- 1- Dadas as necessiades do cliente, formular o que será entregue na primeira sprint;
+ 1- O que será entregue na primeira sprint;
 
  2- Sprint 1: 
 
-	1° selecionar os dados que serão utilizados, 
+  1° selecionar os dados que serão utilizados, 
 	
-    2° Decidimos que o melhor jeito de levar dados precisos e coerentes para a população, seria criar um site que em um primeiro momento mostre informações sobre o Covid e também dados sobre a situação do mesmo para o Estado de São Paulo.
+  2° Decidimos que o melhor jeito de levar dados precisos e coerentes para a população, seria criar um site que em um primeiro momento
+    mostre informações sobre o Covid e também dados sobre a situação do mesmo para o Estado de São Paulo.
 	
-	3° Elaborção do protótipo (wireframe) do projeto; 
+  3° Elaborção do protótipo (wireframe) do projeto; 
 	
-	4° Apresentação do protótipo; 
+  4° Apresentação do protótipo; 
 
 
 Link wireframe: https://www.figma.com/file/AFlTRiQ9bOnQnYq80W2YWt/Api1-2021-team-library?node-id=0%3A1
