@@ -1,13 +1,15 @@
 # Fatec Profº Jessen Vidal, SJC - Grupo_03 Primeiro Semestre
 
-### Equipe:
+## Equipe:
 1-Leonardo Adler da Silva (Scrum Master); 
-2-Eduardo; 3-Renan; 4-Geralmir; 5-João Machado; 6-João Epifânio; 7-Danilo; 8-Michael; 9-Antônio Souza; 10-Gabriel Depiro;
+2-Eduardo; 3-Renan; 4-Geralmir; 5-João Machado; 6-João Epifânio; 7-Danilo Verginio; 8-Michael; 9-Antônio Souza; 10-Gabriel Depiro;
 
-### Relevância do projeto:
+## Relevância do projeto:(A fazer)
 
 ## Descrição do Projeto
 <p align="left"> Este projeto tem como objetivo desenvolver um painel que forneça e informe as estatísticas e gráficos dos dados relacionados a Covid-19 no estado de São Paulo. O mesmo também irá instruir os funcionários a seguirem os protocolos das autoridades sanitárias para não proliferação do vírus, além de informar os números atualizados de contaminados e vacinados..</p>.
+
+## Backlog do projeto:(A fazer)
 
 ### Backlog sprint 1:
  1- Dadas as necessiades do cliente, formular o que será entregue na primeira sprint;
@@ -16,7 +18,7 @@
 
 	1° selecionar os dados que serão utilizados, 
 	
-2° Decidimos que o melhor jeito de levar dados precisos e coerentes para a população seria criar um site que em um primeiro momento mostre informações sobre o Covid, e também dados sobre a situação do mesmo para o Estado de São Paulo.
+        2° Decidimos que o melhor jeito de levar dados precisos e coerentes para a população seria criar um site que em um primeiro momento mostre informações sobre o Covid, e também dados sobre a situação do mesmo para o Estado de São Paulo.
 	
 	3° criação do protótipo(wireframe) do projeto; 
 	
