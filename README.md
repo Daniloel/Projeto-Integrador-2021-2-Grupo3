@@ -23,6 +23,9 @@ S4= Programa pronto e refinado
 
 
 ### Backlog sprint 1:
+ 
+ Tecnologias utilizadas: Site figma
+ 
  1- O que será entregue na primeira sprint;
 
  Sprint 1: 
