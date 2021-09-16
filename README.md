@@ -28,10 +28,7 @@ S4= Programa pronto e refinado
  Sprint 1: 
 
   ° selecionar os dados que serão utilizados, 
-	
-  ° Decidimos que o melhor jeito de levar dados precisos e coerentes para a população, seria criar um site que em um primeiro momento
-    mostre informações sobre o Covid e também dados sobre a situação do mesmo para o Estado de São Paulo.
-	
+
   ° Elaborção do protótipo (wireframe) do projeto; 
 	
   ° Apresentação do protótipo; 
