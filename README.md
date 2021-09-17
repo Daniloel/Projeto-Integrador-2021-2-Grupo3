@@ -38,9 +38,7 @@ Sprint4= Site pronto e refinado.
 
 
 
-### Backlog sprint 2
-### Backlog sprint 3
-### Backlog sprint 4
+#Backlog das Sprints se encontram nas Branches adjacentes.
 
 <h4 align="center"> 
 	🚧  Em construção...  🚧
