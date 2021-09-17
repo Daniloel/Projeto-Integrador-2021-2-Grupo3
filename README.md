@@ -29,7 +29,7 @@ S3= Programa com as funcionalidades básicas/mais importantes
 
 S4= Programa pronto e refinado.
  
- Tecnologias utilizadas:....
+ Tecnologias utilizadas: Discord, Whatsapp, Site Figma....
 
 
 
