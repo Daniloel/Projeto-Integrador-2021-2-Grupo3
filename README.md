@@ -11,10 +11,17 @@
 <p align="left"> Este projeto tem como objetivo desenvolver um painel que forneça e informe as estatísticas e gráficos dos dados relacionados a Covid-19 no estado de São Paulo.   O mesmo também irá instruir os funcionários a seguirem os protocolos das autoridades sanitárias para não proliferação do vírus, além de informar os números atualizados de contaminados e vacinados..</p>.
 
 ## Backlog do projeto:(A fazer)
+Dadas as necessidades do cliente, formular o que será entregue em cada sprint:
 
-1- Dadas as necessidades do cliente, formular o que será entregue em cada sprint;
+Imprescindível= Wireframe, Programa funcionando corretamente e com funcionalidades básicas(filtros e dados essênciais) com os dados das cidades que o cliente tiver mais interesse e do estado de SP;
+Importante= Programa com todos os filtros prontos e funcionando corretamente e de fácil acesso;
+Menos importante= Design estético;
+
+
+Dadas as necessidades do cliente, formular o que será entregue em cada sprint;
 
 S1= Wireframe/Protótipo 1(visual)
+Link wireframe: https://www.figma.com/file/AFlTRiQ9bOnQnYq80W2YWt/Api1-2021-team-library?node-id=0%3A1
 
 S2= Protótipo 2 funcional(teste pelo menos das funcionalidades)
 
@@ -25,22 +32,6 @@ S4= Programa pronto e refinado.
  Tecnologias utilizadas:....
 
 
-### Backlog sprint 1:
- 
- Tecnologias utilizadas: Site figma
- 
- 1- O que será entregue na primeira sprint;
-
- Sprint 1: 
-
-  ° selecionar os dados que serão utilizados, 
-
-  ° Elaborção do protótipo (wireframe) do projeto; 
-	
-  ° Apresentação do protótipo; 
-
-
-Link wireframe: https://www.figma.com/file/AFlTRiQ9bOnQnYq80W2YWt/Api1-2021-team-library?node-id=0%3A1
 
 
 
