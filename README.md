@@ -9,16 +9,16 @@
  
  
 ## Resumo do Projeto
-<p align="left"> Este projeto tem como objetivo desenvolver um painel que forneça e informe as estatísticas e gráficos dos dados relacionados a Covid-19 no estado de São Paulo. A ideia é criar um site com sistema eficaz e simples para que assim seja esclarecidos os dados para o visitante da página.   O mesmo também irá instrui-los a seguirem os protocolos das autoridades sanitárias para não proliferação do vírus, além de informar os números atualizados de contaminados, vacinados, entre outros dados relevantes..</p>.
+<p align="left"> Este projeto tem como objetivo desenvolver um painel que forneça e informe as estatísticas e gráficos dos dados relacionados a Covid-19 no estado de São Paulo. A ideia é criar um site com sistema eficaz e simples para que assim seja esclarecidos os dados para o visitante da página.   O mesmo também irá instrui-los a seguirem os protocolos das autoridades sanitárias para não proliferação do vírus, além de informar os números atualizados de contaminados, vacinados, entre outros dados relevantes </p>
 
 ## Backlog do projeto:(A fazer)
 Dadas as necessidades do cliente, formular o que será entregue em cada sprint:
 
-Imprescindível= Wireframe, Programa funcionando corretamente e com funcionalidades básicas(filtros e dados essênciais) com os dados das cidades que o cliente tiver mais interesse e do estado de SP, dados essênciais= Casos, Óbitos e Vacinação(1° 2° 3° doses) 
+Imprescindível= Wireframe, Programa funcionando corretamente e com funcionalidades básicas(filtros e dados essênciais) com os dados das cidades que o cliente tiver mais interesse e do estado de SP, dados essênciais= Casos, Óbitos e Vacinação(1° 2° 3° doses); 
 
 Importante= Programa com todos os filtros prontos e funcionando corretamente e de fácil acesso;
 
-Menos importante= Design estético;</p>
+Menos importante= Design estético;
 
 
 
