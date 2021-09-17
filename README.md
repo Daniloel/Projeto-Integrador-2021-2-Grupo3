@@ -26,13 +26,13 @@ Menos importante= Design estético;
 Sprint1= Wireframe/Protótipo 1(visual)
 Link wireframe: https://www.figma.com/file/AFlTRiQ9bOnQnYq80W2YWt/Api1-2021-team-library?node-id=0%3A1
 
-Sprint2= Protótipo 2 funcional(teste pelo menos das funcionalidades)
+Sprint2= Programa parte1 funcional(filtros e dados considerados essênciais)
 
-Sprint3= Programa com as funcionalidades básicas/mais importantes
+Sprint3= Programa parte2 adição de mais filtros (principalmente o que o cliente preferir)
 
-Sprint4= Programa pronto e refinado.
+Sprint4= Site pronto e refinado.
  
- Tecnologias utilizadas: Discord, Whatsapp, Site Figma....
+ Tecnologias utilizadas: Discord, Whatsapp, Site Figma, Python.....
 
 
 
