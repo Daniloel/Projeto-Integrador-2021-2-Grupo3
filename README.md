@@ -5,7 +5,7 @@
 2-Eduardo Pedro A dos Reis; 3-Renan; 4-Geralmir; 5-João Vitor Fernandes Machado; 6-João Paulo Epifânio dos Santos; 7-Danilo Verginio; 8-Michael; 9-Antônio Souza; 10-Gabriel Depiro;
 
 ## Relevância do projeto:
- O projeto é relevante para sociedade, para que as pessoas tomem noção da proporção que foi a pandemia nos ultimos tempos. Dados precisos de pessoas vacinadas, internadas e todo outro tipo de informação que é muito importante a população saber sobre o COVID-19.
+ O projeto é relevante para sociedade, para que as pessoas tomem noção da proporção que foi a pandemia nos ultimos tempos. Dados precisos de pessoas vacinadas, internadas e todo outro tipo de informação que é muito importante a população saber sobre o COVID-19 e a partir deles tomar suas conclusões sobre a Doença e a sobre a eficácia das medidas tomadas no estado de SP </p>
  
  
 ## Resumo do Projeto
