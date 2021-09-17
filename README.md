@@ -16,7 +16,7 @@ Dadas as necessidades do cliente, formular o que será entregue em cada sprint:
 
 Imprescindível= Wireframe, Programa funcionando corretamente e com funcionalidades básicas(filtros e dados essênciais) com os dados das cidades que o cliente tiver mais interesse e do estado de SP, dados essênciais= Casos, Óbitos e Vacinação(1° 2° 3° doses); 
 
-Importante= Programa com todos os filtros prontos e funcionando corretamente e de fácil acesso;
+Importante= Restante dos filtros(não essênciais) e painel de Vizualição;
 
 Menos importante= Design estético;
 
