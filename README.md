@@ -18,7 +18,7 @@ Imprescindível= Wireframe, Programa funcionando corretamente e com funcionalida
 
 Importante= Programa com todos os filtros prontos e funcionando corretamente e de fácil acesso;
 
-Menos importante= Design estético;
+Menos importante= Design estético;</p>
 
 
 
