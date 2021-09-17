@@ -32,13 +32,13 @@ Sprint3= Programa parte2 adição de mais filtros (principalmente o que o client
 
 Sprint4= Site pronto e refinado.
  
- Tecnologias utilizadas: Discord, Whatsapp, Site Figma, Python.....
+## Tecnologias utilizadas: Discord, Whatsapp, Site Figma, Python.....
 
 
 
 
 
-# Backlog das Sprints se encontram nas Branches adjacentes.
+### Backlog das Sprints se encontram nas Branches adjacentes.
 
 <h4 align="center"> 
 	🚧  Em construção...  🚧
