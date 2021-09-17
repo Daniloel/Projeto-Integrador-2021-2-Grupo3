@@ -18,7 +18,7 @@ Link wireframe: https://www.figma.com/file/AFlTRiQ9bOnQnYq80W2YWt/Api1-2021-team
 
 
 
-	🚧  Em construção...  🚧
+
 </h4>
 
 
