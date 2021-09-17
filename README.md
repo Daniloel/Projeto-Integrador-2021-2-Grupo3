@@ -5,10 +5,11 @@
 2-Eduardo Pedro A dos Reis; 3-Renan; 4-Geralmir; 5-João Vitor Fernandes Machado; 6-João Paulo Epifânio dos Santos; 7-Danilo Verginio; 8-Michael; 9-Antônio Souza; 10-Gabriel Depiro;
 
 ## Relevância do projeto:
- O projeto é relevante para sociedade, para que as pessoas tomem noção da proporção que foi a pandemia nos ultimos tempos. Dados precisos de pessoas vacinadas, internadas e todo outro tipo de informação que é muito importante a população saber sobre o COVID-19. A ideia é criar um site com sistema eficaz e simples para que assim seja esclarecidos os dados para o visitante da página. 
-
+ O projeto é relevante para sociedade, para que as pessoas tomem noção da proporção que foi a pandemia nos ultimos tempos. Dados precisos de pessoas vacinadas, internadas e todo outro tipo de informação que é muito importante a população saber sobre o COVID-19.
+ 
+ 
 ## Resumo do Projeto
-<p align="left"> Este projeto tem como objetivo desenvolver um painel que forneça e informe as estatísticas e gráficos dos dados relacionados a Covid-19 no estado de São Paulo.   O mesmo também irá instruir os funcionários a seguirem os protocolos das autoridades sanitárias para não proliferação do vírus, além de informar os números atualizados de contaminados e vacinados..</p>.
+<p align="left"> Este projeto tem como objetivo desenvolver um painel que forneça e informe as estatísticas e gráficos dos dados relacionados a Covid-19 no estado de São Paulo. A ideia é criar um site com sistema eficaz e simples para que assim seja esclarecidos os dados para o visitante da página.   O mesmo também irá instrui-los a seguirem os protocolos das autoridades sanitárias para não proliferação do vírus, além de informar os números atualizados de contaminados, vacinados, entre outros dados relevantes..</p>.
 
 ## Backlog do projeto:(A fazer)
 Dadas as necessidades do cliente, formular o que será entregue em cada sprint:
