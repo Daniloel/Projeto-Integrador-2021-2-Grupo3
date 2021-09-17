@@ -21,16 +21,16 @@ Importante= Programa com todos os filtros prontos e funcionando corretamente e d
 Menos importante= Design estético;
 
 
-Dadas as necessidades do cliente, formular o que será entregue em cada sprint;
 
-S1= Wireframe/Protótipo 1(visual)
+
+Sprint1= Wireframe/Protótipo 1(visual)
 Link wireframe: https://www.figma.com/file/AFlTRiQ9bOnQnYq80W2YWt/Api1-2021-team-library?node-id=0%3A1
 
-S2= Protótipo 2 funcional(teste pelo menos das funcionalidades)
+Sprint2= Protótipo 2 funcional(teste pelo menos das funcionalidades)
 
-S3= Programa com as funcionalidades básicas/mais importantes
+Sprint3= Programa com as funcionalidades básicas/mais importantes
 
-S4= Programa pronto e refinado.
+Sprint4= Programa pronto e refinado.
  
  Tecnologias utilizadas: Discord, Whatsapp, Site Figma....
 
