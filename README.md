@@ -32,7 +32,7 @@ Sprint3= Programa parte2 adição de mais filtros(principalmente o que o cliente
 
 Sprint4= Site pronto e refinado.
  
-## Tecnologias utilizadas: Discord, Whatsapp, Site Figma, Python.....
+## Tecnologias utilizadas: Canvas, Site Figma, Python.....
 
 
 
