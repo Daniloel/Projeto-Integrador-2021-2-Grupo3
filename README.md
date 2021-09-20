@@ -5,11 +5,11 @@
 2-Eduardo Pedro A dos Reis; 3-Renan Pimentel de Souza; 4-João Vitor Fernandes Machado; 5-João Paulo Epifânio dos Santos; 6-Danilo Verginio; 7-Michael; 8-Antônio Souza; 9-Gabriel Depiro;
 
 ## Relevância do projeto:
- O projeto é relevante para sociedade, para que as pessoas tomem noção da proporção que foi a pandemia nos ultimos tempos. Dados precisos de pessoas vacinadas, internadas e todo outro tipo de informação que é muito importante a população saber sobre o COVID-19 e a partir deles tomar suas conclusões sobre a Doença e a sobre a eficácia das medidas tomadas no estado de SP </p>
+ O projeto é relevante para sociedade, para que assim as pessoas tomem noção das proporções da pandemia nos últimos tempos. Dados precisos de pessoas vacinadas, internadas e todo outro tipo de informação que é muito importante a população saber sobre o COVID-19 e a partir deles tomar suas conclusões sobre a Doença e sobre a eficácia das medidas tomadas no estado de SP </p>
  
  
 ## Resumo do Projeto
-<p align="left"> Este projeto tem como objetivo desenvolver um painel que forneça e informe as estatísticas e gráficos dos dados relacionados a Covid-19 no estado de São Paulo. A ideia é criar um site com sistema eficaz e simples para que assim seja esclarecidos os dados para o visitante da página.   O mesmo também irá instrui-los a seguirem os protocolos das autoridades sanitárias para não proliferação do vírus, além de informar os números atualizados de contaminados, vacinados, entre outros dados relevantes </p>
+<p align="left"> Este projeto tem como objetivo desenvolver um painel que forneça e informe as estatísticas e gráficos dos dados relacionados a Covid-19 no estado de São Paulo. A ideia é criar um site com sistema eficaz e simples para que assim seja esclarecidos os dados para o visitante da página. O mesmo também irá instrui-los a seguirem os protocolos das autoridades sanitárias para não proliferação do vírus, além de informar os números atualizados de contaminados, vacinados, entre outros dados relevantes </p>
 
 ## Backlog do projeto:(A fazer)
 Dadas as necessidades do cliente, formular o que será entregue em cada sprint:
