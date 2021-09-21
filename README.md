@@ -7,7 +7,7 @@
 
 3- Interfaçe pode ser apenas em cmd;
 
-4- Painel ja funcionando com pelo menos os filtros já colocados mesmo que sem a inserção de todos os dados;
+4- Se possível painel ja funcionando com pelo menos os filtros já colocados mesmo que sem a inserção de todos os dados;
 
 
 
