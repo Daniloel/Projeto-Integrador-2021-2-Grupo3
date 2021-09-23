@@ -26,7 +26,7 @@
 
 
 ## Objetivos:
-Coletar dados necessários, sendo eles o conjutativo de pessoas vacinadas, que foram a óbito e casos em geral do COVID-19. Sendo assim acessivel e simples, com um painel comparando dados precisos da região de preferência do usuário. 
+Coleta de dados necessários para criação do painel, sendo eles o conjutativo de pessoas vacinadas, que foram a óbito e casos de pessoas que contrairam o COVID-19. Sendo assim acessivel e simples, comparando dados precisos da região e data de preferência do usuário.
 
 ## Proposta do projeto:
 txt
