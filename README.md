@@ -43,7 +43,7 @@ Sprint4= Site pronto e refinado.
 <td align="center">Wireframe</td>
 <td align="left">Funcionalidades básicas com Casos, Óbitos e Vacinação(1° 2° 3° doses)</td>
 <td align="left">Criação de filtros de meso, microrregiões e cidades</td>
- <td align="left"> painel de Vizualição web</td>
+ <td align="left">Painel de vizualição web</td>
  </tr>
 <tr>
 <td align="center">Importante</td>
