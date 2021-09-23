@@ -48,13 +48,13 @@ Sprint4= Site pronto e refinado.
 <tr>
 <td align="center">Importante</td>
 <td align="center">2°</td>
-<td align="left">2.Saiba qual será o retorno da sua aplicação de juros compostos no final do período desejado.</td>
+<td align="left">2.</td>
  <td align="left">
   <td align="left">
 </tr>
 <tr>
 <td align="center">Relevante</td>
 <td align="center">3°</td>
-<td align="left">3.Através de um comando de voz você fica sabendo das últimas informações do mercado financeiro.</td>
+<td align="left">3.</td>
 <td align="left">
 <td align="left">
