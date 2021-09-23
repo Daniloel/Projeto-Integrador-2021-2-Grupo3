@@ -72,6 +72,3 @@
 ### Backlog das Sprints se encontram nas Branches adjacentes.
 
 
-</h4>
-
-
