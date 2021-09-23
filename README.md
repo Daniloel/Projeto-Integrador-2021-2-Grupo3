@@ -41,7 +41,7 @@ Sprint4= Site pronto e refinado.
 <tr>
 <td align="center">Crucial</td>
 <td align="center">Wireframe</td>
-<td align="left">Programa funcionando corretamente e com funcionalidades básicas(filtros e dados essênciais) com os dados das cidades que o cliente tiver mais interesse e do estado de SP, dados essênciais= Casos, Óbitos e Vacinação(1° 2° 3° doses)</td>
+<td align="left">Funcionalidades básicas com Casos, Óbitos e Vacinação(1° 2° 3° doses)</td>
 <td align="left">
  <td align="left">
  </tr>
