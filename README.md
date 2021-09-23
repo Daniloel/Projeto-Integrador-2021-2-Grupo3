@@ -11,7 +11,9 @@
 
 -João Paulo Epifânio dos Santos(Dev); 
 
--Danilo Verginio; -Michael(Dev); 
+-Danilo Verginio; 
+
+-Michael(Dev); 
 
 -Antônio Souza(Dev); 
 
