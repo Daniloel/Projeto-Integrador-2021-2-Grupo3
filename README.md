@@ -7,11 +7,11 @@
 <thead>
 <tr>
 <th align="center">Nível de impotância</th>
-<th align="center">O que?</th>
-<th align="left">Sprint 1</th>
- <th align="left">Sprint 2</th>
+<th align="center">Sprint 1</th>
+<th align="left">Sprint 2</th>
  <th align="left">Sprint 3</th>
  <th align="left">Sprint 4</th>
+ 
 </tr>
 </thead>
 <tbody>
