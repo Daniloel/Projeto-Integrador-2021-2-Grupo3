@@ -47,7 +47,7 @@
 <td align="center">3°</td>
 <td align="left">3.</td>
 <td align="left">
-<td align="left">
+	<td align="left"></td>
  
 ## Tecnologias utilizadas: Canvas, Site Figma, Python.....
 
