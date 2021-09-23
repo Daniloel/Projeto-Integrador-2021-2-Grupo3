@@ -38,7 +38,7 @@
 <tr>
 <td align="center">Importante</td>
 <td align="center">GitHub compreensível ao cliente</td>
-<td align="left">2.</td>
+<td align="left">2°</td>
  <td align="left">2!
   <td align="left">2#
 </tr>
