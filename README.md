@@ -61,7 +61,7 @@ txt
 <tr>
 <td align="center">Importante</td>
 <td align="center">Dados covid SP</td>
-<td align="left">2°</td>
+<td align="left">Desenvolvimento e teste do programa</td>
  <td align="left">2!
   <td align="left">2#
 </tr>
