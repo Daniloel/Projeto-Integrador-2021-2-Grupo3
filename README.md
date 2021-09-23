@@ -2,12 +2,19 @@
 
 ## Equipe:
 -Leonardo Adler da Silva (Scrum Master); 
+
 -Eduardo Pedro A dos Reis; 
+
 -Renan Pimentel de Souza; 
+
 -João Vitor Fernandes Machado; 
+
 -João Paulo Epifânio dos Santos; 
+
 -Danilo Verginio; -Michael; 
+
 -Antônio Souza; 
+
 -Gabriel Depiro;
 </td>
 
