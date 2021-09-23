@@ -40,7 +40,7 @@ Sprint4= Site pronto e refinado.
 <tbody>
 <tr>
 <td align="center">Crucial</td>
-<td align="center">1°</td>
+<td align="center">Wireframe</td>
 <td align="left">1.Saiba em tempo real qual é o preço que iria pagar por moedas como dólar, euro e Bitcoin!</td>
 <td align="left">
  <td align="left">
