@@ -25,6 +25,7 @@
 txt
 
 ## Proposta do projeto:
+txt
 
 ## Relevância do projeto:
  O projeto é relevante para sociedade, para que assim as pessoas tomem noção das proporções da pandemia nos últimos tempos. Mostrando dados precisos de pessoas vacinadas, internadas e todo outro tipo de informação que é muito importante a população saber sobre o COVID-19 e a partir deles tomar suas conclusões sobre a Doença e sobre a eficácia das medidas tomadas no estado de SP </p>
