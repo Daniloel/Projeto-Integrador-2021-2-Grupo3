@@ -28,8 +28,6 @@ O projeto tem como pilar a transparência e transmissão de dados tratados para 
 ## Objetivos(a fazer):
 txt
 
-## Proposta do projeto:
-txt
 
 ## Cronograma:
 txt
