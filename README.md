@@ -31,6 +31,8 @@ txt
 ## Proposta do projeto:
 txt
 
+## Cronograma:
+txt
 
 <h1 align="center">Backlog do projeto</h1>
  
