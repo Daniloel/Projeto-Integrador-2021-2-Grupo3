@@ -46,13 +46,13 @@ txt
 <tr>
 <td align="center">Crucial</td>
 <td align="center">Wireframe</td>
-<td align="left">Programa com funcionalidades básicas com Casos, Óbitos e Vacinação(1° 2° 3° doses) de SP</td>
+<td align="left">Dados SP</td>
 <td align="left">Criação de filtros de meso/microrregiões e cidades</td>
  <td align="left">Painel de vizualição web</td>
  </tr>
 <tr>
 <td align="center">Importante</td>
-<td align="center"></td>
+<td align="center">Dados covid SP</td>
 <td align="left">2°</td>
  <td align="left">2!
   <td align="left">2#
