@@ -54,7 +54,7 @@ txt
 <tr>
 <td align="center">Crucial</td>
 <td align="center">Wireframe</td>
-<td align="left">Seleção dos dados e tratamento</td>
+<td align="left">Seleção dos dados e tratamento do Estado de SP</td>
 <td align="left">Criação de filtros de meso/microrregiões e cidades</td>
  <td align="left">Painel de vizualição web</td>
  </tr>
