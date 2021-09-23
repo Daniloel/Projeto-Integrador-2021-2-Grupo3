@@ -1,21 +1,21 @@
 # Fatec Profº Jessen Vidal, SJC - Grupo_03 Primeiro Semestre
 
 ## Equipe:
--Leonardo Adler da Silva (Scrum Master); 
+-Leonardo Adler da Silva (Scrum Master e GitHub); 
 
--Eduardo Pedro A dos Reis; 
+-Eduardo Pedro A dos Reis(Dev); 
 
--Renan Pimentel de Souza; 
+-Renan Pimentel de Souza(Dev); 
 
--João Vitor Fernandes Machado; 
+-João Vitor Fernandes Machado(Dev); 
 
--João Paulo Epifânio dos Santos; 
+-João Paulo Epifânio dos Santos(Dev); 
 
--Danilo Verginio; -Michael; 
+-Danilo Verginio; -Michael(Dev); 
 
--Antônio Souza; 
+-Antônio Souza(Dev); 
 
--Gabriel Depiro;
+-Gabriel Depiro(Dev);
 </td>
 
 ## Relevância do projeto:
