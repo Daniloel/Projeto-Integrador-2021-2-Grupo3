@@ -13,7 +13,7 @@
 </thead>
 <tbody>
 <tr>
-<td align="center">Cliente</td>
+<td align="center">Nível de importância</td>
 <td align="center">Cotação do dia</td>
 <td align="left">Saiba em tempo real qual é o preço que iria pagar por moedas como dólar, euro e Bitcoin!</td>
 </tr>
