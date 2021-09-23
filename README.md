@@ -37,14 +37,14 @@
  </tr>
 <tr>
 <td align="center">Importante</td>
-<td align="center">2°</td>
+<td align="center">GitHub compreensível ao cliente</td>
 <td align="left">2.</td>
  <td align="left">2!
   <td align="left">2#
 </tr>
 <tr>
 <td align="center">Relevante</td>
-<td align="center">3°</td>
+<td align="center">Produção da apresentação</td>
 <td align="left">3.</td>
 <td align="left">3!
 	<td align="left">3#</td>
