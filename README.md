@@ -1,10 +1,5 @@
-<h1 align="center">Assistente Virtual Julius</h1>
-
-
-
-<p align="center">
-  <img src="https://github.com/TheLooksDatabase/Julius/blob/main/3)%20Images/julius.png" />
-</p>  
+<h1 align="center">Backlog do projeto</h1>
+ 
 
  <p align="center">
 <h1 align="left">
