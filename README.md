@@ -29,6 +29,6 @@
 <td align="center">Relevante</td>
 <td align="center">3°</td>
 <td align="left">3.Através de um comando de voz você fica sabendo das últimas informações do mercado financeiro.</td>
-
+<td align="left">
 
 
