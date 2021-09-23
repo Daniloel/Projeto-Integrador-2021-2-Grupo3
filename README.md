@@ -18,7 +18,7 @@
 -Gabriel Depiro(Dev);
 </td>
 
-## <td align="center">Resumo do Projeto
+## Resumo do Projeto
 <p align="left"> Este projeto tem como objetivo desenvolver um painel que forneça e informe as estatísticas e gráficos dos dados relacionados a Covid-19 no estado de São Paulo. A ideia é criar um site com sistema eficaz e simples para que assim seja esclarecidos os dados para o visitante da página. O mesmo também irá instrui-los a seguirem os protocolos das autoridades sanitárias para não proliferação do vírus, além de informar os números atualizados de contaminados, vacinados, entre outros dados relevantes </p>
 
 ## Objetivos
