@@ -11,7 +11,7 @@
 
 -João Paulo Epifânio dos Santos(Dev); 
 
--Danilo Verginio; 
+-Danilo Verginio(Dev e GitHub); 
 
 -Michael(Dev); 
 
