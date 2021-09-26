@@ -36,7 +36,12 @@ Coleta de dados necessários para criação do painel, sendo eles o conjutativo 
 txt
 
 ## Cronograma:
-19/09= Sprint1; 10/10= Sprint2; 07/11= Sprint3; 28/11= Sprint4;
+|19/09= |Sprint1|
+|---|---|
+|10/10= |Sprint2|
+|07/11= |Sprint3|
+|28/11= |Sprint4|
+
 
 <h1 align="center">Backlog do projeto</h1>
  
