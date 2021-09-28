@@ -31,10 +31,10 @@ txt
 ## Cronograma:
 |Data de Entrega |Sprint | Objetivo|
 |---             |---    |---      |
-|21/09/2021=     |Sprint1|         |          
-|01/10/2021=     |Sprint2| Protótipo do programa(backlog sprint 2)|
-|07/11/2021=     |Sprint3| Protótipo do programa(backlog sprint 3)|
-|28/11/2021=     |Sprint4| Protótipo do programa(backlog sprint 4)|
+|21/09/2021     |Sprint1|         |          
+|01/10/2021     |Sprint2| Protótipo do programa(backlog sprint 2)|
+|07/11/2021     |Sprint3| Protótipo do programa(backlog sprint 3)|
+|28/11/2021     |Sprint4| Protótipo do programa(backlog sprint 4)|
 
 
 
