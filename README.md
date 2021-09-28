@@ -2,23 +2,16 @@
 
 <h1 align="left"> Membros da Equipe</h1>
 
--Leonardo Adler da Silva (Scrum Master e GitHub);
-
--Eduardo Pedro A dos Reis(Dev);
-
--Renan Pimentel de Souza(Dev);
-
--João Vitor Fernandes Machado(Dev); 
-
--João Paulo Epifânio dos Santos(Dev); 
-
--Danilo Verginio(Dev e GitHub);
-
--Michael(Dev);
-
--Antônio Souza(Dev); 
-
--Gabriel Depiro(Dev);
+|-Leonardo Adler da Silva| (Scrum Master e GitHub);|
+|:--|:--|
+|-Eduardo Pedro A dos Reis|(Dev);|
+|-Renan Pimentel de Souza|(Dev);|
+|-João Vitor Fernandes Machado|(Dev);| 
+|-João Paulo Epifânio dos Santos|(Dev);| 
+|-Danilo Verginio|(Dev e GitHub);|
+|-Michael|(Dev);|
+|-Antônio Souza|(Dev);| 
+|-Gabriel Depiro|(Dev);|
 
 </td>
 
