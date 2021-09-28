@@ -70,7 +70,7 @@ txt
 <tr>
 <td align="center">Importante</td>
 <td align="center"></td>
-<td align="left">Desenvolvimento e teste do programa</td>
+<td align="left">Desenvolvimento e teste do programa que modtra os dados listados nessa sprint</td>
  <td align="left">2!
   <td align="left">2#
 </tr>
