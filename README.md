@@ -29,13 +29,14 @@ Coleta de dados necessários para criação do painel, sendo eles o conjutativo 
 txt
 
 ## Cronograma:
-|19/09= |Sprint1|           
-|---|---|
-|10/10= |Sprint2|
-|07/11= |Sprint3| 
-|28/11= |Sprint4|
+|Data de Entrega |Sprint | Objetivo|
+|---             |---    |---      |
+|21/09/2021=     |Sprint1|         |          
+|01/10/2021=     |Sprint2| Protótipo do programa(backlog sprint 2)|
+|07/11/2021=     |Sprint3| Protótipo do programa(backlog sprint 3)|
+|28/11/2021=     |Sprint4| Protótipo do programa(backlog sprint 4)|
 
-01/10= Protótipo do programa(backlog sprint 2)
+
 
 
 <h1 align="center">Backlog do projeto</h1>
