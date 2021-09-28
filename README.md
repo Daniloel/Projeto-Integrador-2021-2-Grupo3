@@ -78,7 +78,7 @@ txt
 <td align="center">Relevante</td>
 <td align="center"></td>
 <td align="left">Aprimoramento do GitHub</td>
-<td align="left">2!
+<td align="left">3!
 	<td align="left">Design simples e de facil localização</td>
  
 ## Tecnologias utilizadas: Canvas, Site Figma, Python.....
