@@ -71,7 +71,7 @@ txt
 <td align="center">Importante</td>
 <td align="center">Aprimoramento do GitHub</td>
 <td align="left">Desenvolvimento e teste do programa que modtra os dados listados nessa sprint</td>
- <td align="left">2!
+ <td align="left">Adição de dados como ocupação de Leitos, taxa de letalidade entre outos
   <td align="left">2#
 </tr>
 <tr>
