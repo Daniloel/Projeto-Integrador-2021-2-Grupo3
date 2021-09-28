@@ -78,8 +78,8 @@ txt
 <td align="center">Relevante</td>
 <td align="center"></td>
 <td align="left">3.</td>
-<td align="left">Design simples e de facil localização
-	<td align="left">3#</td>
+<td align="left">3!
+	<td align="left">Design simples e de facil localização</td>
  
 ## Tecnologias utilizadas: Canvas, Site Figma, Python.....
 
