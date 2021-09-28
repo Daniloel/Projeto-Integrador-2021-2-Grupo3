@@ -2,24 +2,16 @@
 
 <h1 align="left"> Membros da Equipe</h1>
 
--Leonardo Adler da Silva (Scrum Master e GitHub);
-
--Eduardo Pedro A dos Reis(Dev);
-
--Renan Pimentel de Souza(Dev);
-
--João Vitor Fernandes Machado(Dev); 
-
--João Paulo Epifânio dos Santos(Dev); 
-
--Danilo Verginio(Dev e GitHub);
-
--Michael(Dev);
-
--Antônio Souza(Dev); 
-
--Gabriel Depiro(Dev);
-
+|-Leonardo Adler da Silva| (Scrum Master e GitHub);|
+|:--|:--|
+|-Eduardo Pedro A dos Reis|(Dev);|
+|-Renan Pimentel de Souza|(Dev);|
+|-João Vitor Fernandes Machado|(Dev);| 
+|-João Paulo Epifânio dos Santos|(Dev);| 
+|-Danilo Verginio|(Dev e GitHub);|
+|-Michael|(Dev);|
+|-Antônio Souza|(Dev);| 
+|-Gabriel Depiro|(Dev);|
 </td>
 
 ## Resumo do Projeto
@@ -65,13 +57,13 @@ txt
 <td align="center">Wireframe</td>
 <td align="left">Seleção dos dados e tratamento (Estado de SP)</td>
 <td align="left">Criação de filtros de meso/microrregiões e cidades</td>
- <td align="left">Painel de vizualição web com os dados mencionados nas sprints anteriores</td>
+ <td align="left">Painel de vizualição web</td>
  </tr>
 <tr>
 <td align="center">Importante</td>
-<td align="center">Aprimoramento do GitHub</td>
-<td align="left">Desenvolvimento e teste do programa que modtra os dados listados nessa sprint</td>
- <td align="left">Adição de dados como ocupação de Leitos, taxa de letalidade, entre outos
+<td align="center"></td>
+<td align="left">Desenvolvimento e teste do programa</td>
+ <td align="left">2!
   <td align="left">2#
 </tr>
 <tr>
