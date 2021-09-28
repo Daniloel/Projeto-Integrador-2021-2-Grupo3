@@ -72,12 +72,12 @@ txt
 <td align="center">Criação do GitHub</td>
 <td align="left">Desenvolvimento e teste do programa que modtra os dados listados nessa sprint</td>
  <td align="left">Adição de dados como ocupação de Leitos, taxa de letalidade, entre outos
-  <td align="left">Aprimoramento do GitHub
+  <td align="left">2!
 </tr>
 <tr>
 <td align="center">Relevante</td>
 <td align="center"></td>
-<td align="left">3.</td>
+<td align="left">Aprimoramento do GitHub</td>
 <td align="left">3!
 	<td align="left">Design simples e de facil localização</td>
  
