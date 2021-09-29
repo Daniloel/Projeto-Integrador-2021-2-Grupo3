@@ -37,6 +37,7 @@ txt
 |28/11/2021     |Sprint4| Protótipo do programa(backlog sprint 4)|
 
 
+
 <h1 align="Left">Backlog do projeto</h1>
 <p align="center">
 <h1 align="left">
@@ -73,6 +74,7 @@ txt
 <td align="left">Design simples e de facil localização</td>
  
 ## Tecnologias utilizadas: Canvas, Site Figma, Python.....
+
 ## Backlog das Sprints se encontram nas Branches adjacentes.	
 	
 
