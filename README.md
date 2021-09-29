@@ -1,6 +1,6 @@
 # Fatec Profº Jessen Vidal, SJC - Grupo_03 Primeiro Semestre
 
-<h1 align="left"> Equipe</h1>
+## :busts_in_silhouette: Equipe	
 
 |-Leonardo Adler da Silva| (Scrum Master e GitHub);|
 |:--|:--|
@@ -73,9 +73,10 @@ txt
 <td align="left">Design simples e de facil localização</td>
  
 ## Tecnologias utilizadas: Canvas, Site Figma, Python.....
-
-## Backlog das Sprints se encontram nas Branches adjacentes.
+## Backlog das Sprints se encontram nas Branches adjacentes.	
 	
+
+
 	
 
 	
