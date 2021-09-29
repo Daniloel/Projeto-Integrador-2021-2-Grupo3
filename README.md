@@ -1,6 +1,6 @@
 # Fatec Profº Jessen Vidal, SJC - Grupo_03 Primeiro Semestre
 
-<h1 align="left"> Membros da Equipe</h1>
+<h1 align="left"> Equipe</h1>
 
 |-Leonardo Adler da Silva| (Scrum Master e GitHub);|
 |:--|:--|
@@ -12,8 +12,8 @@
 |-Michael|(Dev);|
 |-Antônio Souza|(Dev);| 
 |-Gabriel Depiro|(Dev);|
-
-</td>
+</td>	
+	
 
 ## Resumo do Projeto
 <p align="left"> Este projeto tem como objetivo desenvolver um painel que forneça e informe as estatísticas e gráficos dos dados relacionados a Covid-19 no estado de São Paulo. A ideia é criar um site com sistema eficaz e simples para que assim seja esclarecidos os dados para o visitante da página. O mesmo também irá instrui-los a seguirem os protocolos das autoridades sanitárias para não proliferação do vírus, além de informar os números atualizados de contaminados, vacinados, entre outros dados relevantes </p>
@@ -37,12 +37,8 @@ txt
 |28/11/2021     |Sprint4| Protótipo do programa(backlog sprint 4)|
 
 
-
-
-<h1 align="center">Backlog do projeto</h1>
- 
-
- <p align="center">
+<h1 align="Left">Backlog do projeto</h1>
+<p align="center">
 <h1 align="left">
 <table>
 <thead>
@@ -50,9 +46,8 @@ txt
 <th align="center">Nível de impotância</th>
 <th align="center">Sprint 1</th>
 <th align="left">Sprint 2</th>
- <th align="left">Sprint 3</th>
- <th align="left">Sprint 4</th>
- 
+<th align="left">Sprint 3</th>
+<th align="left">Sprint 4</th> 
 </tr>
 </thead>
 <tbody>
@@ -61,28 +56,32 @@ txt
 <td align="center">Wireframe</td>
 <td align="left">Seleção dos dados e tratamento (Estado de SP)</td>
 <td align="left">Criação de filtros de meso/microrregiões e cidades</td>
- <td align="left">Painel de vizualição web com os dados mencionados nas sprints anteriores</td>
- </tr>
+<td align="left">Painel de vizualição web com os dados mencionados nas sprints anteriores</td>
+</tr>
 <tr>
 <td align="center">Importante</td>
 <td align="center">Criação do GitHub</td>
 <td align="left">Desenvolvimento e teste do programa que modtra os dados listados nessa sprint</td>
- <td align="left">Adição de dados como ocupação de Leitos, taxa de letalidade, entre outos
-  <td align="left">4!
+<td align="left">Adição de dados como ocupação de Leitos, taxa de letalidade, entre outos
+<td align="left">4!
 </tr>
 <tr>
 <td align="center">Relevante</td>
 <td align="center"></td>
 <td align="left">Aprimoramento do GitHub</td>
 <td align="left">3!
-	<td align="left">Design simples e de facil localização</td>
+<td align="left">Design simples e de facil localização</td>
  
 ## Tecnologias utilizadas: Canvas, Site Figma, Python.....
 
+## Backlog das Sprints se encontram nas Branches adjacentes.
+	
+	
 
+	
+	
+	
+	
 
-
-
-### Backlog das Sprints se encontram nas Branches adjacentes.
 
 
