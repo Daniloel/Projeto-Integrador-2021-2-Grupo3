@@ -16,7 +16,7 @@
 	
 
 ## Resumo do Projeto
-<p align="left"> Este projeto tem como objetivo desenvolver um painel que forneça e informe as estatísticas e gráficos dos dados relacionados a Covid-19 no estado de São Paulo. A ideia é criar um site com sistema eficaz e simples para que assim seja esclarecidos os dados para o visitante da página. O mesmo também irá instrui-los a seguirem os protocolos das autoridades sanitárias para não proliferação do vírus, além de informar os números atualizados de contaminados, vacinados, entre outros dados relevantes </p>
+<p align="left"> Este projeto tem como objetivo desenvolver um painel que forneça e informe as estatísticas através de gráficos dos dados relacionados a Covid-19 no estado de São Paulo. A ideia é criar um site com sistema eficaz e simples para que assim sejam esclarecidos os dados para o visitante da página. O mesmo também irá instrui-los a seguirem os protocolos das autoridades sanitárias para não proliferação do vírus, além de informar os números atualizados de contaminados, vacinados, entre outros dados relevantes </p>
 
 ## Relevância do projeto:
  O projeto é relevante para sociedade, para que assim as pessoas tomem noção das proporções da pandemia nos últimos tempos. Mostrando dados precisos de pessoas vacinadas, internadas e todo outro tipo de informação que é muito importante a população saber sobre o COVID-19 e a partir deles tomar suas conclusões sobre a Doença e sobre a eficácia das medidas tomadas no estado de SP </p>
@@ -25,7 +25,7 @@
 ## Objetivos:
 Coleta de dados necessários para criação do painel, sendo eles o conjutativo de pessoas vacinadas, que foram a óbito e casos de pessoas que contrairam o COVID-19. Sendo assim acessivel e simples, comparando dados precisos da região e data de preferência do usuário.
 
-## Proposta do projeto:
+## Proposta de entregas do projeto:
 txt
 
 ## Cronograma:
