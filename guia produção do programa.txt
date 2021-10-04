@@ -1,31 +1,16 @@
 1- Pensar em como realizar o programa;
 
-2- A partir do passo 1 pesquisar como e 
-tratar os dados para que possam ser facil-
-mente utilizados;
+2- A partir do passo 1 pesquisar como e tratar os dados para que possam ser facilmente utilizados;
 
-3- Após o tratamento, produzir o programa 
-com as seguintes funções: a partir da data
-selecionada ou um certo período, apresentar
-os dados do estado de SP considerados essên-
-ciais pela equipe;
+3- Após o tratamento, produzir o programa com as seguintes funções: a partir da dataselecionada ou um certo período, apresentaros dados do estado de SP considerados essênciais pela equipe;
 
-4- Entregar esse projeto no GitHub, para que
-toda equipe e o cliente possam utilizar e
-aprimorar;
+4- Entregar esse projeto no GitHub, para que toda equipe e o cliente possam utilizar eaprimorar;
 
-Obs.:>Caso houver a possibilidade, adicionar 
-outros dados considerados importantes;
+Obs.:>Caso houver a possibilidade, adicionar outros dados considerados importantes;
 
->Dados essênciais = casos gerais, óbitos e 
-vacinados(1°, 2° e 3°doses), todos referen-
-tes ao estado SP desde o ínicio da pandêmia
+>Dados essênciais = casos gerais, óbitos e vacinados(1°, 2° e 3°doses), todos referentes ao estado SP desde o ínicio da pandêmia
 até os dias atuais;
 
->Exemplo de forma de procura das datas(do
-dia 01/07/2020 a 01/02/2021) ou datas espe-
-cíficas(03/10/2021 apenas);
+>Exemplo de forma de procura das datas(dodia 01/07/2020 a 01/02/2021) ou datas específicas(03/10/2021 apenas);
  
->Como enviar arquivos no git hub= clique em
-add file(página principal), upload file e 
-commit changes
+>Como enviar arquivos no git hub= clique em add file(página principal), upload file e commit changes.
