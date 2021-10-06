@@ -1,3 +1,5 @@
+import pandas as pd
+
 cv19 = pd.read_csv('caso_full.csv')
 
 cv19 = cv19.drop("epidemiological_week", axis=1)
