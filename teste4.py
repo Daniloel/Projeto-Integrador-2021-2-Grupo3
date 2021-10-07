@@ -15,10 +15,8 @@ colSP = cv19.loc[cv19["state"] == ("SP")]
 
 cs= input("digite(city) para as cidades e (state) para o estadoSP:")
 
-#se colocar state no código abaixo não funciona, pois na coluna city não há um nome para os estado SP, apenas as cidades
 colSP1 = colSP.loc[colSP["place_type"] == cs]
 
-# código abaixo não funciona(marcados com #)
 if cs == "state":
     css= input("Digite a data nesse formato(ano-mês-data)ex:2021-04-25:")
 
