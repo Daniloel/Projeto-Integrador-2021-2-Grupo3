@@ -14,9 +14,8 @@ cv19 = cv19.drop("last_available_date", axis=1)
 colSP = cv19.loc[cv19["state"] == ("SP")]
 
 cs = str(input("digite(city) para as cidades e (state) para estadoSP:")).lower()
-# for cs in range(0, 1):
-# print("")
-# print("")
+# erro a corrigir, memso que vc escreva corretamente, só após a segunda tentativa correta o programa mostra os dados
+
 while cs != ["city", "state"]:
 
     print("digite(city) para as cidades e (state) para estadoSP:")
