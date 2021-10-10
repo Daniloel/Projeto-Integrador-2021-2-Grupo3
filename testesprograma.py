@@ -14,9 +14,7 @@ cv19 = cv19.drop("last_available_date", axis=1)
 colSP = cv19.loc[cv19["state"] == ("SP")]
 
 x = str(input("digite:(1) para as cidades e (2) para estadoSP:")).lower()
-# for cs in range(0, 1):
-# print("")
-# print("")
+
 while x != ("1","2"):
 
     x = str(input("digite:(1) para as cidades e (2) para estadoSP:")).lower()
@@ -26,8 +24,9 @@ while x != ("1","2"):
         colSP1 = colSP.loc[colSP["place_type"] == "state"]
 
         css = input("Digite a data nesse formato(ano-mês-dia)ex:yyyy-mm-dd:")
+        
+# Erro usando o código data2 = pd.to_datetime(css, '%d-%m-%y').date() abaixo
 
-#       data2 = pd.to_datetime(css, '%d-%m-%y').date()
 #        Digite
 #        a
 #        data
