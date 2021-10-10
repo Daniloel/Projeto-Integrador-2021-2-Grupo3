@@ -52,7 +52,7 @@ Coleta de dados necessários para criação do painel, sendo eles o conjutativo 
 <td align="center">Crucial</td>
 <td align="center">Wireframe</td>
 <td align="left">Seleção dos dados e tratamento (Estado de SP)</td>
-<td align="left">Criação de filtros de meso/microrregiões e cidades</td>
+<td align="left">Correção de bugs e Criação de filtros de meso/microrregiões e cidades</td>
 <td align="left">Painel de vizualição web com os dados mencionados nas sprints anteriores</td>
 </tr>
 <tr>
