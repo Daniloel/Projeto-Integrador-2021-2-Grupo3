@@ -25,16 +25,13 @@
 ## Objetivos:
 Coleta de dados necessários para criação do painel, sendo eles o conjutativo de pessoas vacinadas, que foram a óbito e casos de pessoas que contrairam o COVID-19. Sendo assim acessivel e simples, comparando dados precisos da região e data de preferência do usuário.
 
-## Proposta de entregas do projeto:
-txt
-
-## Cronograma:
+## Cronograma e proposta das entregas:
 |Data de Entrega |Sprint | Objetivo|
 |---             |---    |---      |
-|21/09/2021     |Sprint1|  Wireframe: https://www.figma.com/file/AFlTRiQ9bOnQnYq80W2YWt/Api1-2021-team-library?node-id=0%3A1       |          
-|01/10/2021     |Sprint2| Protótipo do programa(backlog sprint 2)|
-|07/11/2021     |Sprint3| Protótipo do programa(backlog sprint 3)|
-|28/11/2021     |Sprint4| Protótipo do programa(backlog sprint 4)|
+|21/09/2021     |Sprint1|  produção do Wireframe explicativo do projeto final: https://www.figma.com/file/AFlTRiQ9bOnQnYq80W2YWt/Api1-2021-team-library?node-id=0%3A1       |          
+|01/10/2021     |Sprint2| Protótipo do programa (interações no terminal python)|
+|07/11/2021     |Sprint3| Protótipo do programa (interaçõpes com html/site apartir do código da sprint anterior), além dos  novos filtros e correções |
+|28/11/2021     |Sprint4| Programa/Site com suas devidas correções e contendo gráficos que exemplifiquem os dados de forma unitária ou conjunta(assim como no exmplo do wireframe|
 
 
 <h1 align="Left">Backlog do projeto</h1>
