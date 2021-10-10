@@ -67,7 +67,7 @@ Coleta de dados necessários para criação do painel, sendo eles o conjutativo 
 <td align="center"></td>
 <td align="left">Aprimoramento do GitHub</td>
 <td align="left">Primeiros teste e implementação do site/html de forma básica
-<td align="left">Design simples e de facil localização</td>
+<td align="left"></td>
  
 ## Tecnologias utilizadas: Canvas, Site Figma, Python.....
 
