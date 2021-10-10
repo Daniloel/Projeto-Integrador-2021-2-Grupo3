@@ -23,7 +23,7 @@
 
 
 ## Objetivos:
-Coleta de dados necessários para criação do painel, sendo eles o conjutativo de pessoas vacinadas, que foram a óbito e casos de pessoas que contrairam o COVID-19. Sendo assim acessivel e simples, comparando dados precisos da região e data de preferência do usuário.
+Coleta de dados necessários para criação do painel, sendo eles o conjutativo de pessoas vacinadas, que foram a óbito e casos de pessoas que contrairam o COVID-19. Sendo assim acessível e simples, comparando dados precisos da região e data de preferência do usuário.
 
 ## Cronograma e proposta das entregas:
 |Data de Entrega |Sprint | Objetivo|
