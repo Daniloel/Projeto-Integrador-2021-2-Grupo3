@@ -59,7 +59,7 @@ Coleta de dados necessários para criação do painel, sendo eles o conjutativo 
 <td align="center">Importante</td>
 <td align="center">Criação da pagina no GitHub</td>
 <td align="left">Desenvolvimento e teste do programa que mostra os dados listados nessa sprint</td>
-<td align="left">Adição de dados como ocupação de Leitos, taxa de letalidade, entre outos
+<td align="left">Adição de dados como ocupação de Leitos, taxa de letalidade, entre outros
 <td align="left">Adição de artifícios visuais como gráficos para melhor vizualização dos dados
 </tr>
 <tr>
