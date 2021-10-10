@@ -27,13 +27,7 @@ Coleta de dados necessários para criação do painel, sendo eles o conjutativo 
 
 ## Cronograma e proposta das entregas:
 <img src="https://github.com/Daniloel/Projeto-Integrador-2021-2-Grupo3/blob/main/Testeimagens/propostaentregasprints.jpg">
-
-|Data de Entrega |Sprint | Objetivo|
-|---             |---    |---      |
-|21/09/2021     |Sprint1|  produção do Wireframe explicativo do projeto final: https://www.figma.com/file/AFlTRiQ9bOnQnYq80W2YWt/Api1-2021-team-library?node-id=0%3A1       |          
-|01/10/2021     |Sprint2| Protótipo do programa (interações no terminal python)|
-|07/11/2021     |Sprint3| Protótipo do programa (interações com html/site a partir do código da sprint anterior), além dos  novos filtros e correções |
-|28/11/2021     |Sprint4| Programa/Site com suas devidas correções e contendo gráficos que exemplifiquem os dados de forma unitária ou conjunta(assim como no exemplo do wireframe)|
+Link Wireframe:  https://www.figma.com/file/AFlTRiQ9bOnQnYq80W2YWt/Api1-2021-team-library?node-id=0%3A1 
 
 
 <h1 align="Left">Backlog do projeto</h1>
