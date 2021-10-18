@@ -13,13 +13,15 @@ cv19 = cv19.drop("last_available_date", axis=1)
 
 colSP = cv19.loc[cv19["state"] == ("SP")]
 
-x = str(input("digite:(1) para as cidades e (2) para estadoSP:")).lower()
+x = str(input("digite:(cidade) para as cidades e (estado) para estadoSP:")).lower()
+# for cs in range(0, 1):
+# print("")
+# print("")
+while x != ("cidade","estado"):
 
-while x != ("1","2"):
+    x = str(input("digite:(cidade) para as cidades e (estado) para estadoSP:")).lower()
 
-    x = str(input("digite:(1) para as cidades e (2) para estadoSP:")).lower()
-
-    if x == "2":
+    if x == "estado":
 
         colSP1 = colSP.loc[colSP["place_type"] == "state"]
 
@@ -31,11 +33,11 @@ while x != ("1","2"):
         colDTS = colDTS.drop("state", axis=1)
         colDTS = colDTS.drop("place_type", axis=1)
 
-        print(colDTS)
+        display(colDTS)
         break
 
 
-    elif x == "1":
+    elif x == "cidade":
 
         colSP1 = colSP.loc[colSP["place_type"] == "city"]
 
@@ -51,7 +53,5 @@ while x != ("1","2"):
         colDT = colDT.drop("state", axis=1)
         colDT = colDT.drop("place_type", axis=1)
 
-        print(colDT)
+        display(colDT)
         break
-
-
