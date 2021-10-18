@@ -1,4 +1,5 @@
-# Fatec Profº Jessen Vidal, SJC - Grupo_03 Primeiro Semestre
+# Fatec Profº Jessen Vidal, SJC - Grupo_03 Primeiro Semestre (Projeto Sharkcov)
+
 
 ## :busts_in_silhouette: Equipe	
 
