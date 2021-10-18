@@ -33,7 +33,7 @@ while x != ("cidade","estado"):
         colDTS = colDTS.drop("state", axis=1)
         colDTS = colDTS.drop("place_type", axis=1)
 
-        display(colDTS)
+        print(colDTS)
         break
 
 
@@ -53,5 +53,5 @@ while x != ("cidade","estado"):
         colDT = colDT.drop("state", axis=1)
         colDT = colDT.drop("place_type", axis=1)
 
-        display(colDT)
+        print(colDT)
         break
