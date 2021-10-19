@@ -13,7 +13,7 @@ cv19 = cv19.drop("last_available_date", axis=1)
 
 colSP = cv19.loc[cv19["state"] == ("SP")]
 
-x = str(input("digite:(cidade) para as cidades e (estado) para estadoSP:")).lower()
+x = str('')
 # for cs in range(0, 1):
 # print("")
 # print("")
