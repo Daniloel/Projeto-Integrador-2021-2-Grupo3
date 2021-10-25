@@ -29,6 +29,7 @@ Coleta de dados necessários para criação do painel, sendo eles o conjutativo 
 ## Cronograma e proposta das entregas:
 <img src="https://github.com/Daniloel/Projeto-Integrador-2021-2-Grupo3/blob/main/Testeimagens/crprogram.jpg">
 Link Wireframe:  https://www.figma.com/file/AFlTRiQ9bOnQnYq80W2YWt/Api1-2021-team-library?node-id=0%3A1 
+
 Link Download Base de dados: https://brasil.io/dataset/covid19/caso_full/
 
 
