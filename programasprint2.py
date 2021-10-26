@@ -32,6 +32,8 @@ while x != ("cidade","estado"):
         colDTS = colDTS.drop("date", axis=1)
         colDTS = colDTS.drop("state", axis=1)
         colDTS = colDTS.drop("place_type", axis=1)
+        colDTS.rename(columns={'city':'cidade','estimated_population':'população','last_available_confirmed':'últimos confirmados','last_available_death_rate':'taxa de óbitos','last_available_deaths':'últimos óbitos','new_confirmed':'casos dia','new_deaths':'óbitos dia'}, inplace=True)
+        
 
         print(colDTS)
         break
@@ -52,6 +54,7 @@ while x != ("cidade","estado"):
         colDT = colDT.drop("date", axis=1)
         colDT = colDT.drop("state", axis=1)
         colDT = colDT.drop("place_type", axis=1)
+        colDT.rename(columns={'city':'cidade','estimated_population':'população','last_available_confirmed':'últimos confirmados','last_available_death_rate':'taxa de óbitos','last_available_deaths':'últimos óbitos','new_confirmed':'casos dia','new_deaths':'óbitos dia'}, inplace=True)
 
         print(colDT)
         break
