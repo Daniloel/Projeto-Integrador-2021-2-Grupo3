@@ -58,7 +58,7 @@ Link Download Base de dados: https://brasil.io/dataset/covid19/caso_full/
 <td align="center">Importante</td>
 <td align="center">Criação da pagina no GitHub</td>
 <td align="left">Desenvolvimento e teste do programa que mostra os dados listados nessa sprint</td>
-<td align="left">Adição de dados como ocupação de Leitos, taxa de letalidade, entre outros
+<td align="left">
 <td align="left">Adição de artifícios visuais como gráficos para melhor vizualização dos dados
 </tr>
 <tr>
