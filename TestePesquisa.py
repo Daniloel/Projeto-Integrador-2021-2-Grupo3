@@ -44,7 +44,18 @@ while c == 'S':
         elif x == "cidade":
 
             colSP1 = colSP.loc[colSP["place_type"] == "city"]
-
+            ok = false
+                while True:
+                    cd = str(input(msg))
+                    if n.istitle():
+                        valor = int(cd)
+                        ok = True
+                    else:
+                        print('\033[0;31mERRO! Escreveu o nome da cidade errado.\033[m')
+                    if ok:
+                        break
+                return valor
+            
             cd = str.title(input("Digite o nome da cidade(escreva com letras maiusculas e acento)ex:São Paulo: "))
 
             colCD = colSP1.loc[colSP1["city"] == cd]
