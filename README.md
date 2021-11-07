@@ -65,7 +65,7 @@ Link Download Base de dados: https://brasil.io/dataset/covid19/caso_full/
 <td align="center">Relevante</td>
 <td align="center"></td>
 <td align="left">Aprimoramento do GitHub</td>
-<td align="left">Primeiros teste e implementação do site/html de forma básica
+<td align="left">
 <td align="left"></td>
  
 ## Tecnologias utilizadas: Canvas, Site Figma, Python.....
