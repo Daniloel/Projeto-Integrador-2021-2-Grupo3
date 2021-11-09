@@ -1,6 +1,6 @@
 import pandas as pd
 
-cv19 = pd.read_csv('caso_full.csv')
+cv19 = pd.read_csv('caso_full3.csv')
 
 cv19 = cv19.drop("epidemiological_week", axis=1)
 cv19 = cv19.drop("city_ibge_code", axis=1)
@@ -17,7 +17,7 @@ x = str('')
 
 while x != ("cidade", "estado"):
 
-    x = str(input("digite:(cidade) para as cidades e (estado) para estadoSP:")).lower()
+    x = str(input("digite:(cidade) para as cidades, (estado) para estadoSP e(X) para finalizar pesquisa:")).lower()
 
     if x == "estado":
 
@@ -33,19 +33,23 @@ while x != ("cidade", "estado"):
             esc = str(input('Digite a sua escolha(1 ou 2): '))
 
             if esc == "1":
-
                 dt2 = input("Digite a data nesse formato(ano-mês-dia)ex:yyyy-mm-dd:")
 
                 colDT2 = colSP1.loc[colSP1["date"] == dt2]
+
+                while colDT2.empty:
+                    print("Data não encontrada\n Digite novamente")
+                    dt2 = input("Digite a data nesse formato(ano-mês-dia)ex:yyyy-mm-dd:")
+                    colDT2 = colSP1.loc[colSP1["date"] == dt2]
 
                 colDT2 = colDT2.drop("date", axis=1)
                 colDT2 = colDT2.drop("state", axis=1)
                 colDT2 = colDT2.drop("place_type", axis=1)
                 colDT2.rename(columns={'city': 'cidade', 'estimated_population': 'população',
-                                   'last_available_confirmed': 'últimos confirmados',
-                                   'last_available_death_rate': 'taxa de óbitos',
-                                   'last_available_deaths': 'últimos óbitos',
-                                   'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
+                                       'last_available_confirmed': 'últimos confirmados',
+                                       'last_available_death_rate': 'taxa de óbitos',
+                                       'last_available_deaths': 'últimos óbitos',
+                                       'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
 
                 print(colDT2)
                 break
@@ -56,47 +60,56 @@ while x != ("cidade", "estado"):
                 dts2 = dts2.drop("state", axis=1)
                 dts2 = dts2.drop("place_type", axis=1)
                 dts2.rename(columns={'city': 'cidade', 'estimated_population': 'população',
-                                 'last_available_confirmed': 'últimos confirmados',
-                                 'last_available_death_rate': 'taxa de óbitos',
-                                 'last_available_deaths': 'últimos óbitos',
-                                 'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
+                                     'last_available_confirmed': 'últimos confirmados',
+                                     'last_available_death_rate': 'taxa de óbitos',
+                                     'last_available_deaths': 'últimos óbitos',
+                                     'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
                 print(dts2)
+            else:
                 break
 
     elif x == "cidade":
 
         colSP1 = colSP.loc[colSP["place_type"] == "city"]
 
-        cd = str.title(input("Digite o nome da cidade(escreva com letras maiusculas e acento)ex:São Paulo:"))
+        cd = input("Digite o nome da cidade(escreva com letras maiusculas, minusculas e com acento)ex:São Paulo:")
 
         colCD = colSP1.loc[colSP1["city"] == cd]
+        while colCD.empty:
+            print("Cidade não encontrada\nDigite o nome da cidade novamente")
+            cd = input("Digite o nome da cidade(escreva com letras maiusculas, minusculas e com acento)ex:São Paulo:")
+            colCD = colSP1.loc[colSP1["city"] == cd]
 
         print('''Escolha uma das opçoes
                         [ 1 ] data expecifica
                         [ 2 ] todas as datas''')
-        esc = str("")
+        esc = ""
 
         while esc != ("1", "2"):
-
             esc = str(input('Digite a sua escolha(1 ou 2): '))
 
             if esc == "1":
 
                 dt = input("Digite a data nesse formato(ano-mês-dia)ex:yyyy-mm-dd:")
+                colDT = colCD.loc[colCD["date"] == dt]
 
-                colDT = colSP1.loc[colSP1["date"] == dt]
+                while colDT.empty:
+                    print("Data não encontrada\n Digite novamente")
+                    dt = input("Digite a data nesse formato(ano-mês-dia)ex:yyyy-mm-dd:")
+                    colDT = colCD.loc[colCD["date"] == dt]
 
-                colDT = colDT.drop("date", axis=1)
                 colDT = colDT.drop("state", axis=1)
                 colDT = colDT.drop("place_type", axis=1)
                 colDT.rename(columns={'city': 'cidade', 'estimated_population': 'população',
-                                       'last_available_confirmed': 'últimos confirmados',
-                                       'last_available_death_rate': 'taxa de óbitos',
-                                       'last_available_deaths': 'últimos óbitos',
-                                       'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
-
+                                      'last_available_confirmed': 'últimos confirmados',
+                                      'last_available_death_rate': 'taxa de óbitos',
+                                      'last_available_deaths': 'últimos óbitos',
+                                      'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
                 print(colDT)
                 break
+
+
+
             elif esc == "2":
                 dts = colCD.loc[colSP["date"] == "2021-05-10"]
 
@@ -104,9 +117,13 @@ while x != ("cidade", "estado"):
                 dts = dts.drop("state", axis=1)
                 dts = dts.drop("place_type", axis=1)
                 dts.rename(columns={'city': 'cidade', 'estimated_population': 'população',
-                                'last_available_confirmed': 'últimos confirmados',
-                                'last_available_death_rate': 'taxa de óbitos',
-                                'last_available_deaths': 'últimos óbitos',
-                                'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
+                                    'last_available_confirmed': 'últimos confirmados',
+                                    'last_available_death_rate': 'taxa de óbitos',
+                                    'last_available_deaths': 'últimos óbitos',
+                                    'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
                 print(dts)
                 break
+
+
+    elif x == "x":
+        break
