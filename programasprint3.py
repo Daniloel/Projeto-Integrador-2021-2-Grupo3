@@ -1,6 +1,6 @@
 import pandas as pd
 
-cv19 = pd.read_csv('caso_full3.csv')
+cv19 = pd.read_csv('caso_full.csv')
 
 cv19 = cv19.drop("epidemiological_week", axis=1)
 cv19 = cv19.drop("city_ibge_code", axis=1)
@@ -13,19 +13,22 @@ cv19 = cv19.drop("last_available_date", axis=1)
 
 colSP = cv19.loc[cv19["state"] == ("SP")]
 
+print("\033[0;32mShark-Cov protótipo: filtro e procura de dados sobre a covid 19 no estado de SP;\033[m")
+print("\033[0;32mFaça sua pesquisa conforme é pedido;\033[m")
+
 x = str('')
 
 while x != ("cidade", "estado"):
 
-    x = str(input("digite:(cidade) para as cidades, (estado) para estadoSP e(X) para finalizar pesquisa:")).lower()
+    x = str(input("\033[0;34mDigite:(cidade) para as cidades, (estado) para estadoSP e (X) para finalizar pesquisa: \033[m")).lower()
 
     if x == "estado":
 
         colSP1 = colSP.loc[colSP["place_type"] == "state"]
 
-        print('''Escolha uma das opçoes
+        print('''\033[0;35mEscolha uma das opçoes
                 [ 1 ] data expecifica
-                [ 2 ] todas as datas''')
+                [ 2 ] última data disponível\033[m''')
         esc = str("")
 
         while esc != ("1", "2", "3"):
@@ -33,12 +36,12 @@ while x != ("cidade", "estado"):
             esc = str(input('Digite a sua escolha(1 ou 2): '))
 
             if esc == "1":
-                dt2 = input("Digite a data nesse formato(ano-mês-dia)ex:yyyy-mm-dd:")
+                dt2 = input("\033[0;35mDigite a data nesse formato(ano-mês-dia)ex:yyyy-mm-dd:\033[m")
 
                 colDT2 = colSP1.loc[colSP1["date"] == dt2]
 
                 while colDT2.empty:
-                    print("Data não encontrada\n Digite novamente")
+                    print("\033[0;31mData não encontrada\n Digite novamente\033[m")
                     dt2 = input("Digite a data nesse formato(ano-mês-dia)ex:yyyy-mm-dd:")
                     colDT2 = colSP1.loc[colSP1["date"] == dt2]
 
@@ -72,17 +75,17 @@ while x != ("cidade", "estado"):
 
         colSP1 = colSP.loc[colSP["place_type"] == "city"]
 
-        cd = input("Digite o nome da cidade(escreva com letras maiusculas, minusculas e com acento)ex:São Paulo:")
+        cd = input("\033[0;34mDigite o nome da cidade(escreva com letras maiusculas, minusculas e com acento)ex:São Paulo: \033[m")
 
         colCD = colSP1.loc[colSP1["city"] == cd]
         while colCD.empty:
-            print("Cidade não encontrada\nDigite o nome da cidade novamente")
-            cd = input("Digite o nome da cidade(escreva com letras maiusculas, minusculas e com acento)ex:São Paulo:")
+            print("\033[0;31mCidade não encontrada\nDigite o nome da cidade novamente\033[m")
+            cd = input("\033[0;34mDigite o nome da cidade(escreva com letras maiusculas, minusculas e com acento)ex:São Paulo: \033[m")
             colCD = colSP1.loc[colSP1["city"] == cd]
 
-        print('''Escolha uma das opçoes
+        print('''\033[0;35mEscolha uma das opçoes
                         [ 1 ] data expecifica
-                        [ 2 ] todas as datas''')
+                        [ 2 ] todas as datas\033[m''')
         esc = ""
 
         while esc != ("1", "2"):
@@ -90,12 +93,12 @@ while x != ("cidade", "estado"):
 
             if esc == "1":
 
-                dt = input("Digite a data nesse formato(ano-mês-dia)ex:yyyy-mm-dd:")
+                dt = input("\033[0;35mDigite a data nesse formato(ano-mês-dia)ex:yyyy-mm-dd:\033[m")
                 colDT = colCD.loc[colCD["date"] == dt]
 
                 while colDT.empty:
-                    print("Data não encontrada\n Digite novamente")
-                    dt = input("Digite a data nesse formato(ano-mês-dia)ex:yyyy-mm-dd:")
+                    print("\033[0;31mData não encontrada\n Digite novamente\033[m")
+                    dt = input("\033[0;35mDigite a data nesse formato(ano-mês-dia)ex:yyyy-mm-dd: \033[m")
                     colDT = colCD.loc[colCD["date"] == dt]
 
                 colDT = colDT.drop("state", axis=1)
@@ -107,8 +110,6 @@ while x != ("cidade", "estado"):
                                       'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
                 print(colDT)
                 break
-
-
 
             elif esc == "2":
                 dts = colCD.loc[colSP["date"] == "2021-05-10"]
@@ -123,7 +124,6 @@ while x != ("cidade", "estado"):
                                     'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
                 print(dts)
                 break
-
 
     elif x == "x":
         break
