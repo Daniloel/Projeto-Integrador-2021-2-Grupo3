@@ -192,7 +192,7 @@ while x != ("cidade", "estado"):
                                       'last_available_death_rate': 'taxa de óbitos',
                                       'last_available_deaths': 'últimos óbitos',
                                       'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
-                display(colDT)
+                print(colDT)
                 break
 
             elif esc == "2":
@@ -205,7 +205,7 @@ while x != ("cidade", "estado"):
                                     'last_available_death_rate': 'taxa de óbitos',
                                     'last_available_deaths': 'últimos óbitos',
                                     'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
-                display(dts)
+                print(dts)
                 break
 
             elif esc == "3":
