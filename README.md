@@ -51,7 +51,7 @@ Link Download Base de dados: https://brasil.io/dataset/covid19/caso_full/
 <td align="center">Crucial</td>
 <td align="center">Wireframe</td>
 <td align="left">Seleção dos dados e tratamento (Estado de SP)</td>
-<td align="left">Correção de bugs e Criação de filtros das cidades</td>
+<td align="left">Correção de bugs e Criação de filtros das cidades e range das datas</td>
 <td align="left">Painel de vizualição web com os dados mencionados nas sprints anteriores</td>
 </tr>
 <tr>
