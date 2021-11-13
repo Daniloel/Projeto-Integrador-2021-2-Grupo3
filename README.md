@@ -68,7 +68,7 @@ Link Download Base de dados: https://brasil.io/dataset/covid19/caso_full/
 <td align="left">
 <td align="left"></td>
  
-## Tecnologias utilizadas: Canvas, Site Figma, Python.....
+## Tecnologias utilizadas: Canvas, Site Figma, Python;
 
 ## Backlog das Sprints se encontram nas Branches adjacentes.	
 	
