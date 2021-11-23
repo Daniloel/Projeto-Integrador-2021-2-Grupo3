@@ -35,12 +35,13 @@ while x != ("cidade", "estado"):
                 [ 5 ] 1ºSemestre 2020
                 [ 6 ] 2ºSemestre 2020
                 [ 7 ] 1ºSemestre 2021
-                [ 8 ] 2ºSemestre 2021\033[m''')
+                [ 8 ] 2ºSemestre 2021
+                [ 9 ] Range inputável\033[m''')
         esc = str("")
 
         while esc != ("1", "2", "3", "4", "5", "6", "7", "8"):
 
-            esc = str(input('Digite a sua escolha(1, 2, 3, 4, 5 ,6, 7, 8): '))
+            esc = str(input('Digite a sua escolha(1, 2, 3, 4, 5 ,6, 7, 8, 9): '))
 
             if esc == "1":
                 dt2 = input("\033[0;35mDigite a data nesse formato(ano-mês-dia)ex:yyyy-mm-dd:\033[m")
@@ -180,6 +181,62 @@ while x != ("cidade", "estado"):
                 break
 
 
+            elif esc == "9":
+
+                XX = input("\033[0;34mData 1 - digite a data nesse formato(yyyy-mm-dd): \033[m")
+
+                XXX = input("\033[0;34mData 2 - digite a data nesse formato(yyyy-mm-dd): \033[m")
+
+                S1 = colSP1[colSP1["date"].between(f"{XX}", f"{XXX}")]
+
+                while S1.empty:
+                    print("\033[0;31mData(s) inválida(s)\nDigite novamente\033[m")
+
+                    XX = input(
+
+                        "\033[0;34mData 1 - digite a data nesse formato(yyyy-mm-dd): \033[m")
+
+                    XXX = input("\033[0;34mData 2 - digite a data nesse formato(yyyy-mm-dd): \033[m")
+
+                    S1 = colSP1[colSP1["date"].between(f"{XX}", f"{XXX}")]
+
+                S1 = S1.drop("state", axis=1)
+
+                S1 = S1.drop("place_type", axis=1)
+
+                S1 = S1.drop("city", axis=1)
+
+                S1 = S1.drop("estimated_population", axis=1)
+
+                S1 = S1.drop("last_available_confirmed", axis=1)
+
+                S1 = S1.drop("last_available_death_rate", axis=1)
+
+                S1 = S1.drop("last_available_deaths", axis=1)
+
+                S1 = S1.drop("date", axis=1)
+
+                S1.rename(columns={'city': 'cidade', 'estimated_population': 'população',
+
+                                   'last_available_confirmed': 'últimos confirmados',
+
+                                   'last_available_death_rate': 'taxa de óbitos',
+
+                                   'last_available_deaths': 'últimos óbitos',
+
+                                   'new_confirmed': 'Casos confirmados:', 'new_deaths': 'Óbitos confirmados:'},
+
+                          inplace=True)
+
+                S0 = S1.sum()
+
+                print(S0)
+
+                break
+
+
+
+
     elif x == "cidade":
 
         colSP1 = colSP.loc[colSP["place_type"] == "city"]
@@ -202,11 +259,12 @@ while x != ("cidade", "estado"):
                         [ 5 ] 1ºSemestre 2020
                         [ 6 ] 2ºSemestre 2020
                         [ 7 ] 1ºSemestre 2021
-                        [ 8 ] 2ºSemestre 2021\033[m''')
+                        [ 8 ] 2ºSemestre 2021
+                        [ 9 ] Range Inputável\033[m''')
         esc = ""
 
         while esc != ("1", "2"):
-            esc = str(input('Digite a sua escolha(1, 2, 3, 4, 5, 6, 7, 8): '))
+            esc = str(input('Digite a sua escolha(1, 2, 3, 4, 5, 6, 7, 8, 9): '))
 
             if esc == "1":
 
@@ -327,6 +385,34 @@ while x != ("cidade", "estado"):
 
             elif esc == "8":
                 S1 = colCD[colCD["date"].between("2021-07-01", "2021-12-31")]
+                S1 = S1.drop("state", axis=1)
+                S1 = S1.drop("place_type", axis=1)
+                S1 = S1.drop("city", axis=1)
+                S1 = S1.drop("estimated_population", axis=1)
+                S1 = S1.drop("last_available_confirmed", axis=1)
+                S1 = S1.drop("last_available_death_rate", axis=1)
+                S1 = S1.drop("last_available_deaths", axis=1)
+                S1 = S1.drop("date", axis=1)
+                S1.rename(columns={'city': 'cidade', 'estimated_population': 'população',
+                                   'last_available_confirmed': 'últimos confirmados',
+                                   'last_available_death_rate': 'taxa de óbitos',
+                                   'last_available_deaths': 'últimos óbitos',
+                                   'new_confirmed': 'Casos confirmados:', 'new_deaths': 'Óbitos confirmados:'},
+                          inplace=True)
+                S0 = S1.sum()
+                print(S0)
+                break
+
+            elif esc == "9":
+                XX = input("\033[0;34mData 1 - digite a data nesse formato(yyyy-mm-dd): \033[m")
+                XXX = input("\033[0;34mData 2 - digite a data nesse formato(yyyy-mm-dd): \033[m")
+                S1 = colSP1[colSP1["date"].between(f"{XX}", f"{XXX}")]
+                while S1.empty:
+                    print("\033[0;31mData(s) inválida(s)\nDigite novamente\033[m")
+                    XX = input(
+                        "\033[0;34mData 1 - digite a data nesse formato(yyyy-mm-dd): \033[m")
+                    XXX = input("\033[0;34mData 2 - digite a data nesse formato(yyyy-mm-dd): \033[m")
+                    S1 = colSP1[colSP1["date"].between(f"{XX}", f"{XXX}")]
                 S1 = S1.drop("state", axis=1)
                 S1 = S1.drop("place_type", axis=1)
                 S1 = S1.drop("city", axis=1)
