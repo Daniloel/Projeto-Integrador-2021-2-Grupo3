@@ -17,8 +17,16 @@ Link Wireframe:  https://www.figma.com/file/AFlTRiQ9bOnQnYq80W2YWt/Api1-2021-tea
 Link Download Base de dados: https://brasil.io/dataset/covid19/caso_full/
 
 
- 
-## Tecnologias utilizadas: Canvas, Site Figma, Python;
+
+## 🛠️ Tecnologias utilizadas:
+AS Tecnologias abaixo foram utilizadas na construção do projeto.
+- [Figma](http://www.figma.com)
+- [Python](https://www.python.org/)
+- [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+- [Jupyter Notebook](https://jupyter.org/)
+- [Pandas](https://pandas.pydata.org/docs/)
+- [Discord](https://discord.com/)
+- [GitHub](https://github.com/)
 
 ## Backlog das Sprints se encontram nas Branches adjacentes.
 
