@@ -1,21 +1,5 @@
 # Fatec Profº Jessen Vidal, SJC - Grupo_03 Primeiro Semestre (Projeto Shark-Cov)
-
-
-## :busts_in_silhouette: Equipe	
-
-|-Leonardo Adler da Silva| (Scrum Master e GitHub);|
-|:--|:--|
-|-Eduardo Pedro A dos Reis|(Dev);|
-|-Renan Pimentel de Souza|(Dev);|
-|-João Vitor Fernandes Machado|(Dev);| 
-|-João Paulo Epifânio dos Santos|(Dev);| 
-|-Danilo Verginio|(Dev e GitHub);|
-|-Michael|(Dev);|
-|-Antônio Souza|(Dev);| 
-|-Gabriel Depiro|(Dev);|
-</td>	
 	
-
 ## Resumo do Projeto
 <p align="left"> Este projeto tem como objetivo desenvolver um painel que forneça e informe as estatísticas através de gráficos dos dados relacionados a Covid-19 no estado de São Paulo. A ideia é criar um site com sistema eficaz e simples para que assim sejam esclarecidos os dados para o visitante da página. O mesmo também irá instrui-los a seguirem os protocolos das autoridades sanitárias para não proliferação do vírus, além de informar os números atualizados de contaminados, vacinados, entre outros dados relevantes </p>
 
@@ -33,49 +17,37 @@ Link Wireframe:  https://www.figma.com/file/AFlTRiQ9bOnQnYq80W2YWt/Api1-2021-tea
 Link Download Base de dados: https://brasil.io/dataset/covid19/caso_full/
 
 
-<h1 align="Left">Backlog do projeto</h1>
-<!--p align="center"-->
-<!--h1 align="left"-->
-<table>
-<thead>
-<tr>
-<th align="center">Nível de impotância</th>
-<th align="center">Sprint 1</th>
-<th align="left">Sprint 2</th>
-<th align="left">Sprint 3</th>
-<th align="left">Sprint 4</th> 
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">Crucial</td>
-<td align="center">Wireframe</td>
-<td align="left">Seleção dos dados e tratamento (Estado de SP)</td>
-<td align="left">Correção de bugs e Criação de filtros das cidades e range das datas</td>
-<td align="left">Painel de vizualição web com os dados mencionados nas sprints anteriores</td>
-</tr>
-<tr>
-<td align="center">Importante</td>
-<td align="center">Criação da pagina no GitHub</td>
-<td align="left">Desenvolvimento e teste do programa que mostra os dados listados nessa sprint</td>
-<td align="left">
-<td align="left">Adição de artifícios visuais como gráficos para melhor vizualização dos dados
-</tr>
-<tr>
-<td align="center">Relevante</td>
-<td align="center"></td>
-<td align="left">Aprimoramento do GitHub</td>
-<td align="left">
-<td align="left"></td>
  
 ## Tecnologias utilizadas: Canvas, Site Figma, Python;
 
-## Backlog das Sprints se encontram nas Branches adjacentes.	
+## Backlog das Sprints se encontram nas Branches adjacentes.
+
+
+
+
+<h1 align="Left">Backlog do projeto</h1>
+<!--p align="center"-->
+<!--h1 align="left"-->
+
+|Nível de impotância|Sprint 1|Sprint 2|Sprint 3|Sprint 4|
+|:------------------|:-------|:-------|:-------|---------|
+|Crucial            |Wireframe|Seleção dos dados e tratamento (Estado de SP)|Correção de bugs e Criação de filtros das cidades e range das datas|Painel de vizualição web com os dados mencionados nas sprints anteriores|
+|Importante|Criação da pagina no GitHub|Desenvolvimento e teste do programa que mostra os dados listados nessa sprint|Adição de artifícios visuais como gráficos para melhor vizualização dos dados||
+|Relevante||Aprimoramento do GitHub|||
 	
+## :busts_in_silhouette: Equipe	
 
-
-	
-
+|-Leonardo Adler da Silva| (Scrum Master e GitHub);|
+|:--|:--|
+|-Eduardo Pedro A dos Reis|(Dev);|
+|-Renan Pimentel de Souza|(Dev);|
+|-João Vitor Fernandes Machado|(Dev);| 
+|-João Paulo Epifânio dos Santos|(Dev);| 
+|-Danilo Verginio|(Dev e GitHub);|
+|-Michael|(Dev);|
+|-Antônio Souza|(Dev);| 
+|-Gabriel Depiro|(Dev);|
+</td>	
 	
 	
 	
