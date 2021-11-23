@@ -78,11 +78,13 @@ while x != ("cidade", "estado"):
                 Y = colSP1[colSP1["date"].between("2020-01-01", "2020-12-31")]
                 Y = Y.drop("state", axis=1)
                 Y = Y.drop("place_type", axis=1)
+
                 Y.rename(columns={'city': 'cidade', 'estimated_population': 'população',
                                   'last_available_confirmed': 'últimos confirmados',
                                   'last_available_death_rate': 'taxa de óbitos',
                                   'last_available_deaths': 'últimos óbitos',
-                                  'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
+                                  'new_confirmed': 'casos 2020', 'new_deaths': 'óbitos 2020', 'date': 'data'}, inplace=True)
+
                 print(Y)
                 break
 
@@ -102,48 +104,79 @@ while x != ("cidade", "estado"):
                 s = colSP1[colSP1["date"].between("2020-01-01", "2020-06-30")]
                 s = s.drop("state", axis=1)
                 s = s.drop("place_type", axis=1)
+                s = s.drop("city", axis=1)
+                s = s.drop("estimated_population", axis=1)
+                s = s.drop("last_available_confirmed", axis=1)
+                s = s.drop("last_available_death_rate", axis=1)
+                s = s.drop("last_available_deaths", axis=1)
+                s = s.drop("date", axis=1)
                 s.rename(columns={'city': 'cidade', 'estimated_population': 'população',
                                   'last_available_confirmed': 'últimos confirmados',
                                   'last_available_death_rate': 'taxa de óbitos',
                                   'last_available_deaths': 'últimos óbitos',
-                                  'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
-                print(s)
+                                  'new_confirmed': 'Casos confirmados:', 'new_deaths': 'Óbitos confirmados:'},
+                         inplace=True)
+                S0 = s.sum()
+                print(S0)
                 break
 
             elif esc == "6":
                 S = colSP1[colSP1["date"].between("2020-07-01", "2020-12-31")]
                 S = S.drop("state", axis=1)
                 S = S.drop("place_type", axis=1)
+                S = S.drop("city", axis=1)
+                S = S.drop("estimated_population", axis=1)
+                S = S.drop("last_available_confirmed", axis=1)
+                S = S.drop("last_available_death_rate", axis=1)
+                S = S.drop("last_available_deaths", axis=1)
+                S = S.drop("date", axis=1)
                 S.rename(columns={'city': 'cidade', 'estimated_population': 'população',
                                   'last_available_confirmed': 'últimos confirmados',
                                   'last_available_death_rate': 'taxa de óbitos',
                                   'last_available_deaths': 'últimos óbitos',
-                                  'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
-                print(S)
+                                  'new_confirmed': 'Casos confirmados:', 'new_deaths': 'Óbitos confirmados:'}, inplace=True)
+                S0 = S.sum()
+                print(S0)
                 break
 
             elif esc == "7":
                 s1 = colSP1[colSP1["date"].between("2021-01-01", "2020-06-30")]
                 s1 = s1.drop("state", axis=1)
                 s1 = s1.drop("place_type", axis=1)
+                s1 = s1.drop("city", axis=1)
+                s1 = s1.drop("estimated_population", axis=1)
+                s1 = s1.drop("last_available_confirmed", axis=1)
+                s1 = s1.drop("last_available_death_rate", axis=1)
+                s1 = s1.drop("last_available_deaths", axis=1)
+                s1 = s1.drop("date", axis=1)
                 s1.rename(columns={'city': 'cidade', 'estimated_population': 'população',
-                                   'last_available_confirmed': 'últimos confirmados',
-                                   'last_available_death_rate': 'taxa de óbitos',
-                                   'last_available_deaths': 'últimos óbitos',
-                                   'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
-                print(s1)
+                                  'last_available_confirmed': 'últimos confirmados',
+                                  'last_available_death_rate': 'taxa de óbitos',
+                                  'last_available_deaths': 'últimos óbitos',
+                                  'new_confirmed': 'Casos confirmados:', 'new_deaths': 'Óbitos confirmados:'},
+                         inplace=True)
+                S0 = s1.sum()
+                print(S0)
                 break
 
             elif esc == "8":
                 S1 = colSP1[colSP1["date"].between("2021-07-01", "2021-12-31")]
                 S1 = S1.drop("state", axis=1)
                 S1 = S1.drop("place_type", axis=1)
+                S1 = S1.drop("city", axis=1)
+                S1 = S1.drop("estimated_population", axis=1)
+                S1 = S1.drop("last_available_confirmed", axis=1)
+                S1 = S1.drop("last_available_death_rate", axis=1)
+                S1 = S1.drop("last_available_deaths", axis=1)
+                S1 = S1.drop("date", axis=1)
                 S1.rename(columns={'city': 'cidade', 'estimated_population': 'população',
                                    'last_available_confirmed': 'últimos confirmados',
                                    'last_available_death_rate': 'taxa de óbitos',
                                    'last_available_deaths': 'últimos óbitos',
-                                   'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
-                print(S1)
+                                   'new_confirmed': 'Casos confirmados:', 'new_deaths': 'Óbitos confirmados:'},
+                          inplace=True)
+                S0 = S1.sum()
+                print(S0)
                 break
 
 
@@ -236,48 +269,80 @@ while x != ("cidade", "estado"):
                 s = colCD[colCD["date"].between("2020-01-01", "2020-06-30")]
                 s = s.drop("state", axis=1)
                 s = s.drop("place_type", axis=1)
+                s = s.drop("city", axis=1)
+                s = s.drop("estimated_population", axis=1)
+                s = s.drop("last_available_confirmed", axis=1)
+                s = s.drop("last_available_death_rate", axis=1)
+                s = s.drop("last_available_deaths", axis=1)
+                s = s.drop("date", axis=1)
                 s.rename(columns={'city': 'cidade', 'estimated_population': 'população',
-                                  'last_available_confirmed': 'últimos confirmados',
-                                  'last_available_death_rate': 'taxa de óbitos',
-                                  'last_available_deaths': 'últimos óbitos',
-                                  'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
-                print(s)
+                                   'last_available_confirmed': 'últimos confirmados',
+                                   'last_available_death_rate': 'taxa de óbitos',
+                                   'last_available_deaths': 'últimos óbitos',
+                                   'new_confirmed': 'Casos confirmados:', 'new_deaths': 'Óbitos confirmados:'},
+                          inplace=True)
+                S0 = s.sum()
+                print(S0)
                 break
 
             elif esc == "6":
                 S = colCD[colCD["date"].between("2020-07-01", "2020-12-31")]
                 S = S.drop("state", axis=1)
                 S = S.drop("place_type", axis=1)
+                S = S.drop("city", axis=1)
+                S = S.drop("estimated_population", axis=1)
+                S = S.drop("last_available_confirmed", axis=1)
+                S = S.drop("last_available_death_rate", axis=1)
+                S = S.drop("last_available_deaths", axis=1)
+                S = S.drop("date", axis=1)
                 S.rename(columns={'city': 'cidade', 'estimated_population': 'população',
-                                  'last_available_confirmed': 'últimos confirmados',
-                                  'last_available_death_rate': 'taxa de óbitos',
-                                  'last_available_deaths': 'últimos óbitos',
-                                  'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
-                print(S)
+                                   'last_available_confirmed': 'últimos confirmados',
+                                   'last_available_death_rate': 'taxa de óbitos',
+                                   'last_available_deaths': 'últimos óbitos',
+                                   'new_confirmed': 'Casos confirmados:', 'new_deaths': 'Óbitos confirmados:'},
+                          inplace=True)
+                S0 = S.sum()
+                print(S0)
                 break
 
             elif esc == "7":
                 s1 = colCD[colCD["date"].between("2021-01-01", "2020-06-30")]
                 s1 = s1.drop("state", axis=1)
                 s1 = s1.drop("place_type", axis=1)
+                s1 = s1.drop("city", axis=1)
+                s1 = s1.drop("estimated_population", axis=1)
+                s1 = s1.drop("last_available_confirmed", axis=1)
+                s1 = s1.drop("last_available_death_rate", axis=1)
+                s1 = s1.drop("last_available_deaths", axis=1)
+                s1 = s1.drop("date", axis=1)
                 s1.rename(columns={'city': 'cidade', 'estimated_population': 'população',
                                    'last_available_confirmed': 'últimos confirmados',
                                    'last_available_death_rate': 'taxa de óbitos',
                                    'last_available_deaths': 'últimos óbitos',
-                                   'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
-                print(s1)
+                                   'new_confirmed': 'Casos confirmados:', 'new_deaths': 'Óbitos confirmados:'},
+                          inplace=True)
+                S0 = s1.sum()
+                print(S0)
                 break
 
             elif esc == "8":
                 S1 = colCD[colCD["date"].between("2021-07-01", "2021-12-31")]
                 S1 = S1.drop("state", axis=1)
                 S1 = S1.drop("place_type", axis=1)
+                S1 = S1.drop("city", axis=1)
+                S1 = S1.drop("estimated_population", axis=1)
+                S1 = S1.drop("last_available_confirmed", axis=1)
+                S1 = S1.drop("last_available_death_rate", axis=1)
+                S1 = S1.drop("last_available_deaths", axis=1)
+                S1 = S1.drop("date", axis=1)
                 S1.rename(columns={'city': 'cidade', 'estimated_population': 'população',
                                    'last_available_confirmed': 'últimos confirmados',
                                    'last_available_death_rate': 'taxa de óbitos',
                                    'last_available_deaths': 'últimos óbitos',
-                                   'new_confirmed': 'casos dia', 'new_deaths': 'óbitos dia'}, inplace=True)
-                print(S1)
+                                   'new_confirmed': 'Casos confirmados:', 'new_deaths': 'Óbitos confirmados:'},
+                          inplace=True)
+                S0 = S1.sum()
+                print(S0)
                 break
 
     elif x == "x":
