@@ -1,8 +1,7 @@
-import numpy as np
 import matplotlib.pyplot as plt
 
-x = np.arange(1, 6)
-dados = np.random.randint(20, 30, 5)
-
-plt.bar(x, dados)
-plt.show()
+plt.plot(colSP['Data'], colSP['novos dia'], label='Casos', color ='g', ls='--', lw='2') #Caso queira grafico de barras colocar - plt.bar()
+plt.legend(loc=2, fontsize='15') #Personalização da legenda
+plt.ylabel('Casos Confirmados') #Nome do Eixo Y
+plt.xlabel('Data') #Nome do Eixo X
+plt.title('Gráfico situação de casos por dia') #Título do gráfico
