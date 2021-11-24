@@ -1,4 +1,5 @@
 import pandas as pd
+from unidecode import unidecode
 
 cv19 = pd.read_csv('caso_full.csv')
 
@@ -12,6 +13,9 @@ cv19 = cv19.drop("estimated_population_2019", axis=1)
 cv19 = cv19.drop("last_available_date", axis=1)
 
 colSP = cv19.loc[cv19["state"] == ("SP")]
+
+def removeA(s):
+    return unidecode(s.lower())
 
 print("\033[0;32mShark-Cov protótipo: filtro e procura de dados sobre a covid 19 no estado de SP;\033[m")
 print("\033[0;32mFaça sua pesquisa conforme é pedido;\033[m")
@@ -244,12 +248,12 @@ while x != ("cidade", "estado"):
         cd = input(
             "\033[0;34mDigite o nome da cidade(escreva com letras maiusculas, minusculas e com acento)ex:São Paulo: \033[m")
 
-        colCD = colSP1.loc[colSP1["city"] == cd]
+        colCD = colSP1.loc[colSP1["city"].apply(removeA) == removeA(cd)]
         while colCD.empty:
             print("\033[0;31mCidade não encontrada\nDigite o nome da cidade novamente\033[m")
             cd = input(
                 "\033[0;34mDigite o nome da cidade(escreva com letras maiusculas, minusculas e com acento)ex:São Paulo: \033[m")
-            colCD = colSP1.loc[colSP1["city"] == cd]
+            colCD = colSP1.loc[colSP1["city"].apply(removeA) == removeA(cd)]
 
         print('''\033[0;35mEscolha uma das opçoes
                         [ 1 ] data expecifica
