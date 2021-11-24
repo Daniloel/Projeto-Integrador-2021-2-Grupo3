@@ -5,3 +5,5 @@ plt.legend(loc=2, fontsize='15') #Personalização da legenda
 plt.ylabel('Casos Confirmados') #Nome do Eixo Y
 plt.xlabel('Data') #Nome do Eixo X
 plt.title('Gráfico situação de casos por dia') #Título do gráfico
+
+link do video - https://www.youtube.com/watch?v=FDU-D8ddTU4
