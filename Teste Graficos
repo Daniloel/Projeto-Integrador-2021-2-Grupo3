@@ -1,9 +1,24 @@
 import matplotlib.pyplot as plt
 
-plt.plot(colSP['Data'], colSP['novos dia'], label='Casos', color ='g', ls='--', lw='2') #Caso queira grafico de barras colocar - plt.bar()
-plt.legend(loc=2, fontsize='15') #Personalização da legenda
-plt.ylabel('Casos Confirmados') #Nome do Eixo Y
-plt.xlabel('Data') #Nome do Eixo X
-plt.title('Gráfico situação de casos por dia') #Título do gráfico
+valoresx = [1,2,3,4]
+valoresy = [1,4,2,3]
 
-link do video - https://www.youtube.com/watch?v=FDU-D8ddTU4
+figura = plt.figure(figsize=(20,3)) #Criando uma figura, para armazenar mais gráficos
+figura.suptitle('Título Geral')
+
+figura.add_subplot(131) #Posição do gráfico, 1- uma linha, 3- três colunas, 1- posição do gráfico(no caso, gráfico 1)
+plt.plot(valoresx, valoresy, label='Um dado qualquer') #Criação do gráfico
+plt.legend()
+plt.title('Gráfico 1')
+
+figura.add_subplot(132)
+plt.scatter(valoresx, valoresy)
+plt.title('Gráfico 2')
+
+figura.add_subplot(133)
+plt.bar(valoresx, valoresy)
+plt.title('Gráfico 3')
+
+plt.show(figura)
+
+link do video - https://www.youtube.com/watch?v=FDU-D8ddTU4 - caso queira ver no video essa explicação, inicia no 40:10.
