@@ -42,7 +42,7 @@ AS Tecnologias abaixo foram utilizadas na construção do projeto.
 
 |Nível de impotância|Sprint 1|Sprint 2|Sprint 3|Sprint 4|
 |:------------------|:-------|:-------|:-------|---------|
-|Crucial            |Wireframe|Seleção dos dados e tratamento (Estado de SP)|Correção de bugs e Criação de filtros das cidades e range das datas|Painel de vizualição web com os dados mencionados nas sprints anteriores|
+|Crucial            |Wireframe|Seleção dos dados e tratamento (Estado de SP)|Correção de bugs e Criação de filtros das cidades e range das datas|Graficos,Comparação de dados, Mais dados variaveis|
 |Importante|Criação da pagina no GitHub|Desenvolvimento e teste do programa que mostra os dados listados nessa sprint|Adição de artifícios visuais como gráficos para melhor vizualização dos dados||
 |Relevante||Aprimoramento do GitHub|||
 	
