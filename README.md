@@ -27,8 +27,8 @@ AS Tecnologias abaixo foram utilizadas na construção do projeto.
 - [Pandas](https://pandas.pydata.org/docs/)
 - [Discord](https://discord.com/)
 - [GitHub](https://github.com/)
-- [matplotlib.pyplot]
-- [Unidecode]
+- [matplotlib.pyplot]()
+- [Unidecode]()
 
 
 ## Backlog das Sprints se encontram nas Branches adjacentes.
