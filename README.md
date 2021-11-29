@@ -32,6 +32,9 @@ AS Tecnologias abaixo foram utilizadas na construção do projeto.
 - [matplotlib.pyplot](https://matplotlib.org/)
 - [Unidecode](https://pypi.org/project/Unidecode/)
 
+- Tutorial de instalação:
+ Ao entrar na IDE ou no prompt do Python, digitar pip install matplotlib, pip install unidecode e pip install pandas
+
 
 ## Backlog das Sprints se encontram nas Branches adjacentes.
 
