@@ -11,7 +11,7 @@
 Coleta de dados necessários para criação do painel, sendo eles o conjutativo de pessoas vacinadas, que foram a óbito e casos de pessoas que contrairam o COVID-19. Sendo assim acessível e simples, comparando dados precisos da região e data de preferência do usuário.
 
 ## Cronograma e proposta das entregas:
-<img src="https://github.com/Daniloel/Projeto-Integrador-2021-2-Grupo3/blob/main/Testeimagens/crprogram3.jpg">
+<img src="https://github.com/Daniloel/Projeto-Integrador-2021-2-Grupo3/blob/main/Imagens/crprogram3.jpg">
 Link Wireframe:  https://www.figma.com/file/AFlTRiQ9bOnQnYq80W2YWt/Api1-2021-team-library?node-id=0%3A1 
 
 Link Download Base de dados: https://brasil.io/dataset/covid19/caso_full/
@@ -22,13 +22,15 @@ Link Download Base de dados: https://brasil.io/dataset/covid19/caso_full/
 AS Tecnologias abaixo foram utilizadas na construção do projeto.
 - [Figma](http://www.figma.com)
 - [Python](https://www.python.org/)
-- [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 - [Jupyter Notebook](https://jupyter.org/)
-- [Pandas](https://pandas.pydata.org/docs/)
-- [Discord](https://discord.com/)
+- [PyCharm]
 - [GitHub](https://github.com/)
-- [matplotlib.pyplot]()
-- [Unidecode]()
+- [Discord](https://discord.com/)
+
+## Bibliotecas usadas no programa(necessita instala-las no Python para uso do programa)
+- [Pandas](https://pandas.pydata.org/docs/)
+- [matplotlib.pyplot](https://matplotlib.org/)
+- [Unidecode](https://pypi.org/project/Unidecode/)
 
 
 ## Backlog das Sprints se encontram nas Branches adjacentes.
