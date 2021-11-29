@@ -23,7 +23,7 @@ AS Tecnologias abaixo foram utilizadas na construção do projeto.
 - [Figma](http://www.figma.com)
 - [Python](https://www.python.org/)
 - [Jupyter Notebook](https://jupyter.org/)
-- [PyCharm]
+- [PyCharm](https://www.jetbrains.com/pt-br/pycharm/download/#section=windows)
 - [GitHub](https://github.com/)
 - [Discord](https://discord.com/)
 
