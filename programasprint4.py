@@ -1,19 +1,18 @@
+import matplotlib.pyplot as plt
 import pandas as pd
 from unidecode import unidecode
-import matplotlib.pyplot as plt
 
-cv19 = pd.read_csv('caso_full.csv')
+co = pd.read_csv('caso_full.csv')
+co = co.drop("epidemiological_week", axis=1)
+co = co.drop("city_ibge_code", axis=1)
+co = co.drop("is_last", axis=1)
+co = co.drop("is_repeated", axis=1)
+co = co.drop("last_available_confirmed_per_100k_inhabitants", axis=1)
+co = co.drop("order_for_place", axis=1)
+co = co.drop("estimated_population_2019", axis=1)
+co = co.drop("last_available_date", axis=1)
 
-cv19 = cv19.drop("epidemiological_week", axis=1)
-cv19 = cv19.drop("city_ibge_code", axis=1)
-cv19 = cv19.drop("is_last", axis=1)
-cv19 = cv19.drop("is_repeated", axis=1)
-cv19 = cv19.drop("last_available_confirmed_per_100k_inhabitants", axis=1)
-cv19 = cv19.drop("order_for_place", axis=1)
-cv19 = cv19.drop("estimated_population_2019", axis=1)
-cv19 = cv19.drop("last_available_date", axis=1)
-
-colSP = cv19.loc[cv19["state"] == ("SP")]
+colSP = co.loc[co["state"] == ("SP")]
 
 def removeA(s):
     return unidecode(s.lower())
@@ -82,6 +81,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+                            xxxx = colDT2.sum()
+                            print("Casos de Covid no dia:")
+                            print(xxxx["new_confirmed"])
                             plt.show()
                             break
                         elif esc == "2":
@@ -96,6 +98,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+                            xxxx = dts2.sum()
+                            print("Casos de Covid no dia:")
+                            print(xxxx["new_confirmed"])
                             plt.show()
                             break
                         elif esc == "3":
@@ -109,6 +114,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+                            xxxx = Y.sum()
+                            print("Casos de Covid no período:")
+                            print(xxxx["new_confirmed"])
                             plt.show()
 
                             break
@@ -124,6 +132,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+                            xxxx = y.sum()
+                            print("Casos de Covid no período:")
+                            print(xxxx["new_confirmed"])
                             plt.show()
                             break
 
@@ -137,6 +148,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Datas')  # Nome do Eixo X
                             plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+                            xxxx = s.sum()
+                            print("Casos de Covid no período:")
+                            print(xxxx["new_confirmed"])
                             plt.show()
 
                             break
@@ -152,6 +166,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Datas')  # Nome do Eixo X
                             plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+                            xxxx = oi.sum()
+                            print("Casos de Covid no período:")
+                            print(xxxx["new_confirmed"])
                             plt.show()
 
                             break
@@ -167,6 +184,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Datas')  # Nome do Eixo X
                             plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+                            xxxx = s1.sum()
+                            print("Casos de Covid no período:")
+                            print(xxxx["new_confirmed"])
                             plt.show()
                             break
 
@@ -181,6 +201,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+                            xxxx = S1.sum()
+                            print("Casos de Covid no período:")
+                            print(xxxx["new_confirmed"])
                             plt.show()
                             break
 
@@ -210,6 +233,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Datas')  # Nome do Eixo X
                             plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+                            xxxx = S1.sum()
+                            print("Casos de Covid no período:")
+                            print(xxxx["new_confirmed"])
                             plt.show()
 
                             break
@@ -240,41 +266,48 @@ while x != ("cidade", "estado"):
                                 dt2 = input("Digite a data nesse formato(ano-mês-dia)ex:yyyy-mm-dd:")
                             colDT2 = colDT2.drop("state", axis=1)
                             colDT2 = colDT2.drop("place_type", axis=1)
-
                             plt.plot(colDT2['date'], colDT2['new_deaths'], label='Casos', color='g', ls='--',
                                     lw='2')  # Caso queira grafico de barras colocar - plt.bar()
                             plt.legend(loc=2, fontsize='15')  # Personalização da legenda
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de óbitos por dia')  # Título do gráfico
+                            xxxx = colDT2.sum()
+                            print("Óbitos por Covid no dia:")
+                            print(xxxx["new_deaths"])
                             plt.show()
                             break
                         elif esc == "2":
-                            dts2 = colSP1.loc[colSP1["date"] == "2021-05-10"]
+                            dts2 = colSP1.loc[colSP1["date"] == "2021-11-10"]
 
                             dts2 = dts2.drop("state", axis=1)
                             dts2 = dts2.drop("place_type", axis=1)
-
                             plt.plot(dts2['date'], dts2['new_deaths'], label='Casos', color='g', ls='--',
                                     lw='2')  # Caso queira grafico de barras colocar - plt.bar()
                             plt.legend(loc=2, fontsize='15')  # Personalização da legenda
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de óbitos por dia')  # Título do gráfico
+                            xxxx = dts2.sum()
+                            print("Óbitos por Covid no dia:")
+                            print(xxxx["new_deaths"])
                             plt.show()
                             break
                         elif esc == "3":
                             Y = colSP1[colSP1["date"].between("2020-01-01", "2020-12-31")]
                             Y = Y.drop("state", axis=1)
                             Y = Y.drop("place_type", axis=1)
-
                             plt.plot(Y['date'], Y['new_deaths'], label='Casos', color='g', ls='--',
                                     lw='2')  # Caso queira grafico de barras colocar - plt.bar()
                             plt.legend(loc=2, fontsize='15')  # Personalização da legenda
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de óbitos por dia')  # Título do gráfico
+                            xxxx = Y.sum()
+                            print("Óbitos por Covid no período:")
+                            print(xxxx["new_deaths"])
                             plt.show()
+
 
                             break
 
@@ -289,6 +322,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de óbitos por dia')  # Título do gráfico
+                            xxxx = y.sum()
+                            print("Óbitos por Covid no período:")
+                            print(xxxx["new_deaths"])
                             plt.show()
                             break
 
@@ -302,6 +338,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Datas')  # Nome do Eixo X
                             plt.title('Gráfico situação de óbitos por dia')  # Título do gráfico
+                            xxxx = s.sum()
+                            print("Óbitos por Covid no período:")
+                            print(xxxx["new_deaths"])
                             plt.show()
 
                             break
@@ -317,6 +356,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Datas')  # Nome do Eixo X
                             plt.title('Gráfico situação de óbitos por dia')  # Título do gráfico
+                            xxxx = oi.sum()
+                            print("Óbitos por Covid no período:")
+                            print(xxxx["new_deaths"])
                             plt.show()
 
                             break
@@ -332,6 +374,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Datas')  # Nome do Eixo X
                             plt.title('Gráfico situação de óbitos por dia')  # Título do gráfico
+                            xxxx = s1.sum()
+                            print("Óbitos por Covid no período:")
+                            print(xxxx["new_deaths"])
                             plt.show()
                             break
 
@@ -346,6 +391,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de óbitos por dia')  # Título do gráfico
+                            xxxx = S1.sum()
+                            print("Óbitos por Covid no período:")
+                            print(xxxx["new_deaths"])
                             plt.show()
                             break
 
@@ -375,6 +423,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Datas')  # Nome do Eixo X
                             plt.title('Gráfico situação de óbitos por dia')  # Título do gráfico
+                            xxxx = S1.sum()
+                            print("Óbitos por Covid no período:")
+                            print(xxxx["new_deaths"])
                             plt.show()
 
                             break
@@ -406,45 +457,33 @@ while x != ("cidade", "estado"):
                             colDT2 = colSP1.loc[colSP1["date"] == dt2]
                         colDT2 = colDT2.drop("state", axis=1)
                         colDT2 = colDT2.drop("place_type", axis=1)
-                        figura = plt.figure(figsize=(20, 3))  # Criando uma figura, para armazenar mais gráficos
-                        figura.suptitle('Título Geral')
-
-                        figura.add_subplot(
-                            121)  # Posição do gráfico, 1- uma linha, 3- três colunas, 1- posição do gráfico(no caso, gráfico 1)
-                        plt.plot(colDT2["date"], colDT2["new_confirmed"], label='1° Semestre')  # Criação do gráfico
-                        plt.ylabel('Casos Confirmados')
+                        plt.bar(colDT2["date"], colDT2["new_deaths"], label="Óbitos confirmados")
+                        plt.bar(colDT2["date"], colDT2["new_confirmed"], label="Casos confirmados")
                         plt.legend()
-                        plt.title('Casos Confirmados')
-
-                        figura.add_subplot(122)
-                        plt.plot(colDT2["date"], colDT2["new_deaths"])
-                        plt.title('Óbitos Confirmados')
-                        plt.ylabel('Óbitos Confirmados')
-                        plt.xlabel("01/01/2020 à 31/12/2020")
-
+                        plt.title('Comparações')
+                        plt.xlabel(f"{dt2}")
+                        xxxx = colDT2.sum()
+                        print("Óbitos por Covid no dia:")
+                        print(xxxx["new_deaths"])
+                        print("Casos de Covid no dia:")
+                        print(xxxx["new_confirmed"])
                         plt.show()
                         break
 
                     elif esc == "2":
-                        dts2 = colSP1.loc[colSP1["date"] == "2021-05-10"]
+                        dts2 = colSP1.loc[colSP1["date"] == "2021-11-10"]
                         dts2 = dts2.drop("state", axis=1)
                         dts2 = dts2.drop("place_type", axis=1)
-                        figura = plt.figure(figsize=(20, 3))  # Criando uma figura, para armazenar mais gráficos
-                        figura.suptitle('Título Geral')
-
-                        figura.add_subplot(
-                            121)  # Posição do gráfico, 1- uma linha, 3- três colunas, 1- posição do gráfico(no caso, gráfico 1)
-                        plt.plot(dts2["date"], dts2["new_confirmed"], label='1° Semestre')  # Criação do gráfico
-                        plt.ylabel('Casos Confirmados')
+                        plt.plot(dts2["date"], dts2["new_deaths"], label="Óbitos confirmados")
+                        plt.plot(dts2["date"], dts2["new_confirmed"], label="Casos confirmados")
                         plt.legend()
-                        plt.title('Casos Confirmados')
-
-                        figura.add_subplot(122)
-                        plt.plot(dts2["date"], dts2["new_deaths"])
-                        plt.title('Óbitos Confirmados')
-                        plt.ylabel('Óbitos Confirmados')
-                        plt.xlabel("01/01/2020 à 31/12/2020")
-
+                        plt.title('Comparações')
+                        plt.xlabel("2021-11-10")
+                        xxxx = dts2.sum()
+                        print("Óbitos por Covid no dia:")
+                        print(xxxx["new_deaths"])
+                        print("Casos de Covid no dia:")
+                        print(xxxx["new_confirmed"])
                         plt.show()
                         break
 
@@ -452,45 +491,34 @@ while x != ("cidade", "estado"):
                         Y = colSP1[colSP1["date"].between("2020-01-01", "2020-12-31")]
                         Y = Y.drop("state", axis=1)
                         Y = Y.drop("place_type", axis=1)
-                        figura = plt.figure(figsize=(20, 3))  # Criando uma figura, para armazenar mais gráficos
-                        figura.suptitle('Título Geral')
-
-                        figura.add_subplot(
-                            121)  # Posição do gráfico, 1- uma linha, 3- três colunas, 1- posição do gráfico(no caso, gráfico 1)
-                        plt.plot(Y["date"], Y["new_confirmed"], label='1° Semestre')  # Criação do gráfico
-                        plt.ylabel('Casos Confirmados')
+                        plt.plot(Y["date"], Y["new_deaths"], label="Óbitos confirmados")
+                        plt.plot(Y["date"], Y["new_confirmed"], label="Casos confirmados")
                         plt.legend()
-                        plt.title('Casos Confirmados')
-
-                        figura.add_subplot(122)
-                        plt.plot(Y["date"], Y["new_deaths"])
-                        plt.title('Óbitos Confirmados')
-                        plt.ylabel('Óbitos Confirmados')
+                        plt.title('Comparações')
                         plt.xlabel("01/01/2020 à 31/12/2020")
-
+                        xxxx = Y.sum()
+                        print("Óbitos por Covid no período:")
+                        print(xxxx["new_deaths"])
+                        print("Casos de Covid no período:")
+                        print(xxxx["new_confirmed"])
                         plt.show()
+
                         break
 
                     elif esc == "4":
                         y = colSP1[colSP1["date"].between("2021-01-01", "2021-12-31")]
                         y = y.drop("state", axis=1)
                         y = y.drop("place_type", axis=1)
-                        figura = plt.figure(figsize=(20, 3))  # Criando uma figura, para armazenar mais gráficos
-                        figura.suptitle('Título Geral')
-
-                        figura.add_subplot(
-                            121)  # Posição do gráfico, 1- uma linha, 3- três colunas, 1- posição do gráfico(no caso, gráfico 1)
-                        plt.plot(y["date"], y["new_confirmed"], label='1° Semestre')  # Criação do gráfico
-                        plt.ylabel('Casos Confirmados')
+                        plt.plot(y["date"], y["new_deaths"], label="Óbitos confirmados")
+                        plt.plot(y["date"], y["new_confirmed"], label="Casos confirmados")
                         plt.legend()
-                        plt.title('Casos Confirmados')
-
-                        figura.add_subplot(122)
-                        plt.plot(y["date"], y["new_deaths"])
-                        plt.title('Óbitos Confirmados')
-                        plt.ylabel('Óbitos Confirmados')
-                        plt.xlabel("01/01/2020 à 31/12/2020")
-
+                        plt.title('Comparações')
+                        plt.xlabel("2021-01-01 à 2021-12-31")
+                        xxxx = y.sum()
+                        print("Óbitos por Covid no período:")
+                        print(xxxx["new_deaths"])
+                        print("Casos de Covid no período:")
+                        print(xxxx["new_confirmed"])
                         plt.show()
                         break
 
@@ -498,22 +526,16 @@ while x != ("cidade", "estado"):
                         s = colSP1[colSP1["date"].between("2020-01-01", "2020-06-30")]
                         s = s.drop("state", axis=1)
                         s = s.drop("place_type", axis=1)
-                        figura = plt.figure(figsize=(20, 3))  # Criando uma figura, para armazenar mais gráficos
-                        figura.suptitle('Título Geral')
-
-                        figura.add_subplot(
-                            121)  # Posição do gráfico, 1- uma linha, 3- três colunas, 1- posição do gráfico(no caso, gráfico 1)
-                        plt.plot(s["date"], s["new_confirmed"], label='1° Semestre')  # Criação do gráfico
-                        plt.ylabel('Casos Confirmados')
+                        plt.plot(s["date"], s["new_deaths"], label="Óbitos confirmados")
+                        plt.plot(s["date"], s["new_confirmed"], label="Casos confirmados")
                         plt.legend()
-                        plt.title('Casos Confirmados')
-
-                        figura.add_subplot(122)
-                        plt.plot(s["date"], s["new_deaths"])
-                        plt.title('Óbitos Confirmados')
-                        plt.ylabel('Óbitos Confirmados')
-                        plt.xlabel("01/01/2020 à 31/12/2020")
-
+                        plt.title('Comparações')
+                        plt.xlabel("2020-01-01 à 2020-06-30")
+                        xxxx = s.sum()
+                        print("Óbitos por Covid no período:")
+                        print(xxxx["new_deaths"])
+                        print("Casos de Covid no período:")
+                        print(xxxx["new_confirmed"])
                         plt.show()
                         break
 
@@ -522,22 +544,16 @@ while x != ("cidade", "estado"):
                         oi = colSP1[colSP1["date"].between("2020-07-01", "2020-12-31")]
                         oi = oi.drop("state", axis=1)
                         oi = oi.drop("place_type", axis=1)
-                        figura = plt.figure(figsize=(20, 3))  # Criando uma figura, para armazenar mais gráficos
-                        figura.suptitle('Título Geral')
-
-                        figura.add_subplot(
-                            121)  # Posição do gráfico, 1- uma linha, 3- três colunas, 1- posição do gráfico(no caso, gráfico 1)
-                        plt.plot(oi["date"], oi["new_confirmed"], label='1° Semestre')  # Criação do gráfico
-                        plt.ylabel('Casos Confirmados')
+                        plt.plot(oi["date"], oi["new_deaths"], label="Óbitos confirmados")
+                        plt.plot(oi["date"], oi["new_confirmed"], label="Casos confirmados")
                         plt.legend()
-                        plt.title('Casos Confirmados')
-
-                        figura.add_subplot(122)
-                        plt.plot(oi["date"], oi["new_deaths"])
-                        plt.title('Óbitos Confirmados')
-                        plt.ylabel('Óbitos Confirmados')
-                        plt.xlabel("01/01/2020 à 31/12/2020")
-
+                        plt.title('Comparações')
+                        plt.xlabel("2020-07-01 à 2020-12-31")
+                        xxxx = oi.sum()
+                        print("Óbitos por Covid no período:")
+                        print(xxxx["new_deaths"])
+                        print("Casos de Covid no período:")
+                        print(xxxx["new_confirmed"])
                         plt.show()
                         break
 
@@ -545,22 +561,16 @@ while x != ("cidade", "estado"):
                         s1 = colSP1[colSP1["date"].between("2021-01-01", "2021-06-30")]
                         s1 = s1.drop("state", axis=1)
                         s1 = s1.drop("place_type", axis=1)
-                        figura = plt.figure(figsize=(20, 3))  # Criando uma figura, para armazenar mais gráficos
-                        figura.suptitle('Título Geral')
-
-                        figura.add_subplot(
-                            121)  # Posição do gráfico, 1- uma linha, 3- três colunas, 1- posição do gráfico(no caso, gráfico 1)
-                        plt.plot(s1["date"], s1["new_confirmed"], label='1° Semestre')  # Criação do gráfico
-                        plt.ylabel('Casos Confirmados')
+                        plt.plot(s1["date"], s1["new_deaths"], label="Óbitos confirmados")
+                        plt.plot(s1["date"], s1["new_confirmed"], label="Casos confirmados")
                         plt.legend()
-                        plt.title('Casos Confirmados')
-
-                        figura.add_subplot(122)
-                        plt.plot(s1["date"], s1["new_deaths"])
-                        plt.title('Óbitos Confirmados')
-                        plt.ylabel('Óbitos Confirmados')
-                        plt.xlabel("01/01/2020 à 31/12/2020")
-
+                        plt.title('Comparações')
+                        plt.xlabel("2021-01-01 à 2021-06-30")
+                        xxxx = s1.sum()
+                        print("Óbitos por Covid no período:")
+                        print(xxxx["new_deaths"])
+                        print("Casos de Covid no período:")
+                        print(xxxx["new_confirmed"])
                         plt.show()
                         break
 
@@ -568,22 +578,16 @@ while x != ("cidade", "estado"):
                         S1 = colSP1[colSP1["date"].between("2021-07-01", "2021-12-31")]
                         S1 = S1.drop("state", axis=1)
                         S1 = S1.drop("place_type", axis=1)
-                        figura = plt.figure(figsize=(20, 3))  # Criando uma figura, para armazenar mais gráficos
-                        figura.suptitle('Título Geral')
-
-                        figura.add_subplot(
-                            121)  # Posição do gráfico, 1- uma linha, 3- três colunas, 1- posição do gráfico(no caso, gráfico 1)
-                        plt.plot(S1["date"], S1["new_confirmed"], label='1° Semestre')  # Criação do gráfico
-                        plt.ylabel('Casos Confirmados')
+                        plt.plot(S1["date"], S1["new_deaths"], label="Óbitos confirmados")
+                        plt.plot(S1["date"], S1["new_confirmed"], label="Casos confirmados")
                         plt.legend()
-                        plt.title('Casos Confirmados')
-
-                        figura.add_subplot(122)
-                        plt.plot(S1["date"], S1["new_deaths"])
-                        plt.title('Óbitos Confirmados')
-                        plt.ylabel('Óbitos Confirmados')
-                        plt.xlabel("01/01/2020 à 31/12/2020")
-
+                        plt.title('Comparações')
+                        plt.xlabel("2021-07-01 à 2021-12-31")
+                        xxxx = S1.sum()
+                        print("Óbitos por Covid no período:")
+                        print(xxxx["new_deaths"])
+                        print("Casos de Covid no período:")
+                        print(xxxx["new_confirmed"])
                         plt.show()
                         break
 
@@ -609,22 +613,16 @@ while x != ("cidade", "estado"):
                             S1 = colSP1[colSP1["date"].between(f"{XX}", f"{XXX}")]
                         S1 = S1.drop("state", axis=1)
                         S1 = S1.drop("place_type", axis=1)
-                        figura = plt.figure(figsize=(20, 3))  # Criando uma figura, para armazenar mais gráficos
-                        figura.suptitle('Título Geral')
-
-                        figura.add_subplot(
-                            121)  # Posição do gráfico, 1- uma linha, 3- três colunas, 1- posição do gráfico(no caso, gráfico 1)
-                        plt.plot(S1["date"], S1["new_confirmed"], label='1° Semestre')  # Criação do gráfico
-                        plt.ylabel('Casos Confirmados')
+                        plt.plot(S1["date"], S1["new_deaths"], label="Óbitos confirmados")
+                        plt.plot(S1["date"], S1["new_confirmed"], label="Casos confirmados")
                         plt.legend()
-                        plt.title('Casos Confirmados')
-
-                        figura.add_subplot(122)
-                        plt.plot(S1["date"], S1["new_deaths"])
-                        plt.title('Óbitos Confirmados')
-                        plt.ylabel('Óbitos Confirmados')
-                        plt.xlabel("01/01/2020 à 31/12/2020")
-
+                        plt.title('Comparações')
+                        plt.xlabel(f"{XX} à {XXX}")
+                        xxxx = S1.sum()
+                        print("Óbitos por Covid no período:")
+                        print(xxxx["new_deaths"])
+                        print("Casos de Covid no período:")
+                        print(xxxx["new_confirmed"])
                         plt.show()
                         break
 
@@ -698,10 +696,13 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+                            xxxx = colDT2.sum()
+                            print("Casos de Covid no dia:")
+                            print(xxxx["new_confirmed"])
                             plt.show()
                             break
                         elif esc == "2":
-                            dts2 = colCD.loc[colCD["date"] == "2021-05-10"]
+                            dts2 = colCD.loc[colCD["date"] == "2021-11-10"]
 
                             dts2 = dts2.drop("state", axis=1)
                             dts2 = dts2.drop("place_type", axis=1)
@@ -712,6 +713,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+                            xxxx = dts2.sum()
+                            print("Casos de Covid no dia:")
+                            print(xxxx["new_confirmed"])
                             plt.show()
                             break
                         elif esc == "3":
@@ -725,6 +729,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+                            xxxx = Y.sum()
+                            print("Casos de Covid no período:")
+                            print(xxxx["new_confirmed"])
                             plt.show()
 
                             break
@@ -740,6 +747,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+                            xxxx = y.sum()
+                            print("Casos de Covid no período:")
+                            print(xxxx["new_confirmed"])
                             plt.show()
                             break
 
@@ -753,6 +763,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Datas')  # Nome do Eixo X
                             plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+                            xxxx = s.sum()
+                            print("Casos de Covid no período:")
+                            print(xxxx["new_confirmed"])
                             plt.show()
 
                             break
@@ -768,6 +781,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Datas')  # Nome do Eixo X
                             plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+                            xxxx = oi.sum()
+                            print("Casos de Covid no período:")
+                            print(xxxx["new_confirmed"])
                             plt.show()
 
                             break
@@ -783,6 +799,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Datas')  # Nome do Eixo X
                             plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+                            xxxx = s1.sum()
+                            print("Casos de Covid no período:")
+                            print(xxxx["new_confirmed"])
                             plt.show()
                             break
 
@@ -797,6 +816,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+                            xxxx = S1.sum()
+                            print("Casos de Covid no período:")
+                            print(xxxx["new_confirmed"])
                             plt.show()
                             break
 
@@ -826,6 +848,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Datas')  # Nome do Eixo X
                             plt.title('Gráfico situação de casos por dia')  # Título do gráfico
+                            xxxx = S1.sum()
+                            print("Casos de Covid no período:")
+                            print(xxxx["new_confirmed"])
                             plt.show()
 
                             break
@@ -865,6 +890,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de óbitos por dia')  # Título do gráfico
+                            xxxx = colDT2.sum()
+                            print("Óbitos por Covid no dia:")
+                            print(xxxx["new_deaths"])
                             plt.show()
                             break
                         elif esc == "2":
@@ -879,6 +907,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de óbitos por dia')  # Título do gráfico
+                            xxxx = dts2.sum()
+                            print("Óbitos por Covid no dia:")
+                            print(xxxx["new_deaths"])
                             plt.show()
                             break
                         elif esc == "3":
@@ -892,6 +923,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de óbitos por dia')  # Título do gráfico
+                            xxxx = Y.sum()
+                            print("Óbitos por Covid no período:")
+                            print(xxxx["new_deaths"])
                             plt.show()
 
                             break
@@ -907,6 +941,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de óbitos por dia')  # Título do gráfico
+                            xxxx = y.sum()
+                            print("Óbitos por Covid no período:")
+                            print(xxxx["new_deaths"])
                             plt.show()
                             break
 
@@ -920,6 +957,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Datas')  # Nome do Eixo X
                             plt.title('Gráfico situação de óbitos por dia')  # Título do gráfico
+                            xxxx = s.sum()
+                            print("Óbitos por Covid no período:")
+                            print(xxxx["new_deaths"])
                             plt.show()
 
                             break
@@ -935,6 +975,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Datas')  # Nome do Eixo X
                             plt.title('Gráfico situação de óbitos por dia')  # Título do gráfico
+                            xxxx = oi.sum()
+                            print("Óbitos por Covid no período:")
+                            print(xxxx["new_deaths"])
                             plt.show()
 
                             break
@@ -950,6 +993,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Datas')  # Nome do Eixo X
                             plt.title('Gráfico situação de óbitos por dia')  # Título do gráfico
+                            xxxx = s1.sum()
+                            print("Óbitos por Covid no período:")
+                            print(xxxx["new_deaths"])
                             plt.show()
                             break
 
@@ -964,6 +1010,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Data')  # Nome do Eixo X
                             plt.title('Gráfico situação de óbitos por dia')  # Título do gráfico
+                            xxxx = S1.sum()
+                            print("Óbitos por Covid no período:")
+                            print(xxxx["new_deaths"])
                             plt.show()
                             break
 
@@ -993,6 +1042,9 @@ while x != ("cidade", "estado"):
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
                             plt.xlabel('Datas')  # Nome do Eixo X
                             plt.title('Gráfico situação de óbitos por dia')  # Título do gráfico
+                            xxxx = S1.sum()
+                            print("Óbitos por Covid no período:")
+                            print(xxxx["new_deaths"])
                             plt.show()
 
                             break
@@ -1024,45 +1076,33 @@ while x != ("cidade", "estado"):
                             colDT2 = colCD.loc[colCD["date"] == dt2]
                         colDT2 = colDT2.drop("state", axis=1)
                         colDT2 = colDT2.drop("place_type", axis=1)
-                        figura = plt.figure(figsize=(20, 3))  # Criando uma figura, para armazenar mais gráficos
-                        figura.suptitle('Título Geral')
-
-                        figura.add_subplot(
-                            121)  # Posição do gráfico, 1- uma linha, 3- três colunas, 1- posição do gráfico(no caso, gráfico 1)
-                        plt.plot(colDT2["date"], colDT2["new_confirmed"], label='1° Semestre')  # Criação do gráfico
-                        plt.ylabel('Casos Confirmados')
+                        plt.bar(colDT2["date"], colDT2["new_deaths"], label="Óbitos confirmados")
+                        plt.bar(colDT2["date"], colDT2["new_confirmed"], label="Casos confirmados")
                         plt.legend()
-                        plt.title('Casos Confirmados')
-
-                        figura.add_subplot(122)
-                        plt.plot(colDT2["date"], colDT2["new_deaths"])
-                        plt.title('Óbitos Confirmados')
-                        plt.ylabel('Óbitos Confirmados')
-                        plt.xlabel("01/01/2020 à 31/12/2020")
-
+                        plt.title('Comparações')
+                        plt.xlabel(f"{dt2}")
+                        xxxx = colDT2.sum()
+                        print("Óbitos por Covid no dia:")
+                        print(xxxx["new_deaths"])
+                        print("Casos de Covid no dia:")
+                        print(xxxx["new_confirmed"])
                         plt.show()
                         break
 
                     elif esc == "2":
-                        dts2 = colCD.loc[colCD["date"] == "2021-05-10"]
+                        dts2 = colCD.loc[colCD["date"] == "2021-11-10"]
                         dts2 = dts2.drop("state", axis=1)
                         dts2 = dts2.drop("place_type", axis=1)
-                        figura = plt.figure(figsize=(20, 3))  # Criando uma figura, para armazenar mais gráficos
-                        figura.suptitle('Título Geral')
-
-                        figura.add_subplot(
-                            121)  # Posição do gráfico, 1- uma linha, 3- três colunas, 1- posição do gráfico(no caso, gráfico 1)
-                        plt.plot(dts2["date"], dts2["new_confirmed"], label='1° Semestre')  # Criação do gráfico
-                        plt.ylabel('Casos Confirmados')
+                        plt.plot(dts2["date"], dts2["new_deaths"], label="Óbitos confirmados")
+                        plt.plot(dts2["date"], dts2["new_confirmed"], label="Casos confirmados")
                         plt.legend()
-                        plt.title('Casos Confirmados')
-
-                        figura.add_subplot(122)
-                        plt.plot(dts2["date"], dts2["new_deaths"])
-                        plt.title('Óbitos Confirmados')
-                        plt.ylabel('Óbitos Confirmados')
-                        plt.xlabel("01/01/2020 à 31/12/2020")
-
+                        plt.title('Comparações')
+                        plt.xlabel("2021-11-10")
+                        xxxx = dts2.sum()
+                        print("Óbitos por Covid no dia:")
+                        print(xxxx["new_deaths"])
+                        print("Casos de Covid no dia:")
+                        print(xxxx["new_confirmed"])
                         plt.show()
                         break
 
@@ -1070,45 +1110,34 @@ while x != ("cidade", "estado"):
                         Y = colCD[colCD["date"].between("2020-01-01", "2020-12-31")]
                         Y = Y.drop("state", axis=1)
                         Y = Y.drop("place_type", axis=1)
-                        figura = plt.figure(figsize=(20, 3))  # Criando uma figura, para armazenar mais gráficos
-                        figura.suptitle('Título Geral')
-
-                        figura.add_subplot(
-                            121)  # Posição do gráfico, 1- uma linha, 3- três colunas, 1- posição do gráfico(no caso, gráfico 1)
-                        plt.plot(Y["date"], Y["new_confirmed"], label='1° Semestre')  # Criação do gráfico
-                        plt.ylabel('Casos Confirmados')
+                        plt.plot(Y["date"], Y["new_deaths"], label="Óbitos confirmados")
+                        plt.plot(Y["date"], Y["new_confirmed"], label="Casos confirmados")
                         plt.legend()
-                        plt.title('Casos Confirmados')
-
-                        figura.add_subplot(122)
-                        plt.plot(Y["date"], Y["new_deaths"])
-                        plt.title('Óbitos Confirmados')
-                        plt.ylabel('Óbitos Confirmados')
+                        plt.title('Comparações')
                         plt.xlabel("01/01/2020 à 31/12/2020")
-
+                        xxxx = Y.sum()
+                        print("Óbitos por Covid no período:")
+                        print(xxxx["new_deaths"])
+                        print("Casos de Covid no período:")
+                        print(xxxx["new_confirmed"])
                         plt.show()
+
                         break
 
                     elif esc == "4":
                         y = colCD[colCD["date"].between("2021-01-01", "2021-12-31")]
                         y = y.drop("state", axis=1)
                         y = y.drop("place_type", axis=1)
-                        figura = plt.figure(figsize=(20, 3))  # Criando uma figura, para armazenar mais gráficos
-                        figura.suptitle('Título Geral')
-
-                        figura.add_subplot(
-                            121)  # Posição do gráfico, 1- uma linha, 3- três colunas, 1- posição do gráfico(no caso, gráfico 1)
-                        plt.plot(y["date"], y["new_confirmed"], label='1° Semestre')  # Criação do gráfico
-                        plt.ylabel('Casos Confirmados')
+                        plt.plot(y["date"], y["new_deaths"], label="Óbitos confirmados")
+                        plt.plot(y["date"], y["new_confirmed"], label="Casos confirmados")
                         plt.legend()
-                        plt.title('Casos Confirmados')
-
-                        figura.add_subplot(122)
-                        plt.plot(y["date"], y["new_deaths"])
-                        plt.title('Óbitos Confirmados')
-                        plt.ylabel('Óbitos Confirmados')
-                        plt.xlabel("01/01/2020 à 31/12/2020")
-
+                        plt.title('Comparações')
+                        plt.xlabel("2021-01-01 à 2021-12-31")
+                        xxxx = y.sum()
+                        print("Óbitos por Covid no período:")
+                        print(xxxx["new_deaths"])
+                        print("Casos de Covid no período:")
+                        print(xxxx["new_confirmed"])
                         plt.show()
                         break
 
@@ -1116,22 +1145,16 @@ while x != ("cidade", "estado"):
                         s = colCD[colCD["date"].between("2020-01-01", "2020-06-30")]
                         s = s.drop("state", axis=1)
                         s = s.drop("place_type", axis=1)
-                        figura = plt.figure(figsize=(20, 3))  # Criando uma figura, para armazenar mais gráficos
-                        figura.suptitle('Título Geral')
-
-                        figura.add_subplot(
-                            121)  # Posição do gráfico, 1- uma linha, 3- três colunas, 1- posição do gráfico(no caso, gráfico 1)
-                        plt.plot(s["date"], s["new_confirmed"], label='1° Semestre')  # Criação do gráfico
-                        plt.ylabel('Casos Confirmados')
+                        plt.plot(s["date"], s["new_deaths"], label="Óbitos confirmados")
+                        plt.plot(s["date"], s["new_confirmed"], label="Casos confirmados")
                         plt.legend()
-                        plt.title('Casos Confirmados')
-
-                        figura.add_subplot(122)
-                        plt.plot(s["date"], s["new_deaths"])
-                        plt.title('Óbitos Confirmados')
-                        plt.ylabel('Óbitos Confirmados')
-                        plt.xlabel("01/01/2020 à 31/12/2020")
-
+                        plt.title('Comparações')
+                        plt.xlabel("2020-01-01 à 2020-06-30")
+                        xxxx = s.sum()
+                        print("Óbitos por Covid no período:")
+                        print(xxxx["new_deaths"])
+                        print("Casos de Covid no período:")
+                        print(xxxx["new_confirmed"])
                         plt.show()
                         break
 
@@ -1140,22 +1163,16 @@ while x != ("cidade", "estado"):
                         oi = colCD[colCD["date"].between("2020-07-01", "2020-12-31")]
                         oi = oi.drop("state", axis=1)
                         oi = oi.drop("place_type", axis=1)
-                        figura = plt.figure(figsize=(20, 3))  # Criando uma figura, para armazenar mais gráficos
-                        figura.suptitle('Título Geral')
-
-                        figura.add_subplot(
-                            121)  # Posição do gráfico, 1- uma linha, 3- três colunas, 1- posição do gráfico(no caso, gráfico 1)
-                        plt.plot(oi["date"], oi["new_confirmed"], label='1° Semestre')  # Criação do gráfico
-                        plt.ylabel('Casos Confirmados')
+                        plt.plot(oi["date"], oi["new_deaths"], label="Óbitos confirmados")
+                        plt.plot(oi["date"], oi["new_confirmed"], label="Casos confirmados")
                         plt.legend()
-                        plt.title('Casos Confirmados')
-
-                        figura.add_subplot(122)
-                        plt.plot(oi["date"], oi["new_deaths"])
-                        plt.title('Óbitos Confirmados')
-                        plt.ylabel('Óbitos Confirmados')
-                        plt.xlabel("01/01/2020 à 31/12/2020")
-
+                        plt.title('Comparações')
+                        plt.xlabel("2020-07-01 à 2020-12-31")
+                        xxxx = oi.sum()
+                        print("Óbitos por Covid no período:")
+                        print(xxxx["new_deaths"])
+                        print("Casos de Covid no período:")
+                        print(xxxx["new_confirmed"])
                         plt.show()
                         break
 
@@ -1163,22 +1180,16 @@ while x != ("cidade", "estado"):
                         s1 = colCD[colCD["date"].between("2021-01-01", "2021-06-30")]
                         s1 = s1.drop("state", axis=1)
                         s1 = s1.drop("place_type", axis=1)
-                        figura = plt.figure(figsize=(20, 3))  # Criando uma figura, para armazenar mais gráficos
-                        figura.suptitle('Título Geral')
-
-                        figura.add_subplot(
-                            121)  # Posição do gráfico, 1- uma linha, 3- três colunas, 1- posição do gráfico(no caso, gráfico 1)
-                        plt.plot(s1["date"], s1["new_confirmed"], label='1° Semestre')  # Criação do gráfico
-                        plt.ylabel('Casos Confirmados')
+                        plt.plot(s1["date"], s1["new_deaths"], label="Óbitos confirmados")
+                        plt.plot(s1["date"], s1["new_confirmed"], label="Casos confirmados")
                         plt.legend()
-                        plt.title('Casos Confirmados')
-
-                        figura.add_subplot(122)
-                        plt.plot(s1["date"], s1["new_deaths"])
-                        plt.title('Óbitos Confirmados')
-                        plt.ylabel('Óbitos Confirmados')
-                        plt.xlabel("01/01/2020 à 31/12/2020")
-
+                        plt.title('Comparações')
+                        plt.xlabel("2021-01-01 à 2021-06-30")
+                        xxxx = s1.sum()
+                        print("Óbitos por Covid no período:")
+                        print(xxxx["new_deaths"])
+                        print("Casos de Covid no período:")
+                        print(xxxx["new_confirmed"])
                         plt.show()
                         break
 
@@ -1186,22 +1197,16 @@ while x != ("cidade", "estado"):
                         S1 = colCD[colCD["date"].between("2021-07-01", "2021-12-31")]
                         S1 = S1.drop("state", axis=1)
                         S1 = S1.drop("place_type", axis=1)
-                        figura = plt.figure(figsize=(20, 3))  # Criando uma figura, para armazenar mais gráficos
-                        figura.suptitle('Título Geral')
-
-                        figura.add_subplot(
-                            121)  # Posição do gráfico, 1- uma linha, 3- três colunas, 1- posição do gráfico(no caso, gráfico 1)
-                        plt.plot(S1["date"], S1["new_confirmed"], label='1° Semestre')  # Criação do gráfico
-                        plt.ylabel('Casos Confirmados')
+                        plt.plot(S1["date"], S1["new_deaths"], label="Óbitos confirmados")
+                        plt.plot(S1["date"], S1["new_confirmed"], label="Casos confirmados")
                         plt.legend()
-                        plt.title('Casos Confirmados')
-
-                        figura.add_subplot(122)
-                        plt.plot(S1["date"], S1["new_deaths"])
-                        plt.title('Óbitos Confirmados')
-                        plt.ylabel('Óbitos Confirmados')
-                        plt.xlabel("01/01/2020 à 31/12/2020")
-
+                        plt.title('Comparações')
+                        plt.xlabel("2021-07-01 à 2021-12-31")
+                        xxxx = S1.sum()
+                        print("Óbitos por Covid no período:")
+                        print(xxxx["new_deaths"])
+                        print("Casos de Covid no período:")
+                        print(xxxx["new_confirmed"])
                         plt.show()
                         break
 
@@ -1227,22 +1232,16 @@ while x != ("cidade", "estado"):
                             S1 = colCD[colCD["date"].between(f"{XX}", f"{XXX}")]
                         S1 = S1.drop("state", axis=1)
                         S1 = S1.drop("place_type", axis=1)
-                        figura = plt.figure(figsize=(20, 3))  # Criando uma figura, para armazenar mais gráficos
-                        figura.suptitle('Título Geral')
-
-                        figura.add_subplot(
-                            121)  # Posição do gráfico, 1- uma linha, 3- três colunas, 1- posição do gráfico(no caso, gráfico 1)
-                        plt.plot(S1["date"], S1["new_confirmed"], label='1° Semestre')  # Criação do gráfico
-                        plt.ylabel('Casos Confirmados')
+                        plt.plot(S1["date"], S1["new_deaths"], label="Óbitos confirmados")
+                        plt.plot(S1["date"], S1["new_confirmed"], label="Casos confirmados")
                         plt.legend()
-                        plt.title('Casos Confirmados')
-
-                        figura.add_subplot(122)
-                        plt.plot(S1["date"], S1["new_deaths"])
-                        plt.title('Óbitos Confirmados')
-                        plt.ylabel('Óbitos Confirmados')
-                        plt.xlabel("01/01/2020 à 31/12/2020")
-
+                        plt.title('Comparações')
+                        plt.xlabel(f"{XX} à {XXX}")
+                        xxxx = S1.sum()
+                        print("Óbitos por Covid no período:")
+                        print(xxxx["new_deaths"])
+                        print("Casos de Covid no período:")
+                        print(xxxx["new_confirmed"])
                         plt.show()
                         break
 
