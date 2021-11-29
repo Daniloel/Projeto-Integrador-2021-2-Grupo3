@@ -15,6 +15,7 @@ Coleta de dados necessários para criação do painel, sendo eles o conjutativo 
 Link Wireframe:  https://www.figma.com/file/AFlTRiQ9bOnQnYq80W2YWt/Api1-2021-team-library?node-id=0%3A1 
 
 Link Download Base de dados: https://brasil.io/dataset/covid19/caso_full/
+!Baixar e colocar o arquivo "caso_full" na mesma pasta que o arquivo do programa se encontra!
 
 
 
