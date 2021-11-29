@@ -36,9 +36,6 @@ AS Tecnologias abaixo foram utilizadas na construção do projeto.
  Ao entrar na IDE ou no prompt do Python, digitar pip install matplotlib, pip install unidecode e pip install pandas
 
 
-## Backlog das Sprints se encontram nas Branches adjacentes.
-
-
 
 
 <h1 align="Left">Backlog do projeto</h1>
