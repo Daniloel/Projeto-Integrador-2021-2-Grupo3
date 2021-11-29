@@ -27,7 +27,7 @@ AS Tecnologias abaixo foram utilizadas na construção do projeto.
 - [GitHub](https://github.com/)
 - [Discord](https://discord.com/)
 
-## Bibliotecas usadas no programa(necessita instala-las no Python para uso do programa)
+## Bibliotecas usadas no programa: (necessita instala-las no Python para uso do programa)
 - [Pandas](https://pandas.pydata.org/docs/)
 - [matplotlib.pyplot](https://matplotlib.org/)
 - [Unidecode](https://pypi.org/project/Unidecode/)
