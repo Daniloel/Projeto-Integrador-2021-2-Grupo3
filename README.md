@@ -57,8 +57,7 @@ AS Tecnologias abaixo foram utilizadas na construção do projeto.
 |:--|:--|
 |-Eduardo Pedro A dos Reis|(Dev);|
 |-Renan Pimentel de Souza|(Dev);|
-|-João Vitor Fernandes Machado|(Dev);| 
-|-João Paulo Epifânio dos Santos|(Dev);| 
+|-João Vitor Fernandes Machado|(Dev);|
 |-Danilo Verginio|(Dev e GitHub);|
 |-Michael|(Dev);|
 |-Antônio Souza|(Dev);| 
