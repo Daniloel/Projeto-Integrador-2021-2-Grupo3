@@ -75,7 +75,7 @@ while x != ("cidade", "estado"):
                             colDT2 = colDT2.drop("state", axis=1)
                             colDT2 = colDT2.drop("place_type", axis=1)
 
-                            plt.plot(colDT2['date'], colDT2['new_confirmed'], label='Casos', color='g', ls='--',
+                            plt.bar(colDT2['date'], colDT2['new_confirmed'], label='Casos', color='g', ls='--',
                                     lw='2')  # Caso queira grafico de barras colocar - plt.bar()
                             plt.legend(loc=2, fontsize='15')  # Personalização da legenda
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
@@ -92,7 +92,7 @@ while x != ("cidade", "estado"):
                             dts2 = dts2.drop("state", axis=1)
                             dts2 = dts2.drop("place_type", axis=1)
 
-                            plt.plot(dts2['date'], dts2['new_confirmed'], label='Casos', color='g', ls='--',
+                            plt.bar(dts2['date'], dts2['new_confirmed'], label='Casos', color='g', ls='--',
                                     lw='2')  # Caso queira grafico de barras colocar - plt.bar()
                             plt.legend(loc=2, fontsize='15')  # Personalização da legenda
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
@@ -266,7 +266,7 @@ while x != ("cidade", "estado"):
                                 dt2 = input("Digite a data nesse formato(ano-mês-dia)ex:yyyy-mm-dd:")
                             colDT2 = colDT2.drop("state", axis=1)
                             colDT2 = colDT2.drop("place_type", axis=1)
-                            plt.plot(colDT2['date'], colDT2['new_deaths'], label='Casos', color='g', ls='--',
+                            plt.bar(colDT2['date'], colDT2['new_deaths'], label='Casos', color='g', ls='--',
                                     lw='2')  # Caso queira grafico de barras colocar - plt.bar()
                             plt.legend(loc=2, fontsize='15')  # Personalização da legenda
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
@@ -282,7 +282,7 @@ while x != ("cidade", "estado"):
 
                             dts2 = dts2.drop("state", axis=1)
                             dts2 = dts2.drop("place_type", axis=1)
-                            plt.plot(dts2['date'], dts2['new_deaths'], label='Casos', color='g', ls='--',
+                            plt.bar(dts2['date'], dts2['new_deaths'], label='Casos', color='g', ls='--',
                                     lw='2')  # Caso queira grafico de barras colocar - plt.bar()
                             plt.legend(loc=2, fontsize='15')  # Personalização da legenda
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
@@ -457,8 +457,8 @@ while x != ("cidade", "estado"):
                             colDT2 = colSP1.loc[colSP1["date"] == dt2]
                         colDT2 = colDT2.drop("state", axis=1)
                         colDT2 = colDT2.drop("place_type", axis=1)
-                        plt.bar(colDT2["date"], colDT2["new_deaths"], label="Óbitos confirmados")
-                        plt.bar(colDT2["date"], colDT2["new_confirmed"], label="Casos confirmados")
+                        plt.plot(colDT2["date"], colDT2["new_deaths"], label="Óbitos confirmados")
+                        plt.plot(colDT2["date"], colDT2["new_confirmed"], label="Casos confirmados")
                         plt.legend()
                         plt.title('Comparações')
                         plt.xlabel(f"{dt2}")
@@ -690,7 +690,7 @@ while x != ("cidade", "estado"):
                             colDT2 = colDT2.drop("state", axis=1)
                             colDT2 = colDT2.drop("place_type", axis=1)
 
-                            plt.plot(colDT2['date'], colDT2['new_confirmed'], label='Casos', color='g', ls='--',
+                            plt.bar(colDT2['date'], colDT2['new_confirmed'], label='Casos', color='g', ls='--',
                                     lw='2')  # Caso queira grafico de barras colocar - plt.bar()
                             plt.legend(loc=2, fontsize='15')  # Personalização da legenda
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
@@ -707,7 +707,7 @@ while x != ("cidade", "estado"):
                             dts2 = dts2.drop("state", axis=1)
                             dts2 = dts2.drop("place_type", axis=1)
 
-                            plt.plot(dts2['date'], dts2['new_confirmed'], label='Casos', color='g', ls='--',
+                            plt.bar(dts2['date'], dts2['new_confirmed'], label='Casos', color='g', ls='--',
                                     lw='2')  # Caso queira grafico de barras colocar - plt.bar()
                             plt.legend(loc=2, fontsize='15')  # Personalização da legenda
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
@@ -884,7 +884,7 @@ while x != ("cidade", "estado"):
                             colDT2 = colDT2.drop("state", axis=1)
                             colDT2 = colDT2.drop("place_type", axis=1)
 
-                            plt.plot(colDT2['date'], colDT2['new_deaths'], label='Casos', color='g', ls='--',
+                            plt.bar(colDT2['date'], colDT2['new_deaths'], label='Casos', color='g', ls='--',
                                     lw='2')  # Caso queira grafico de barras colocar - plt.bar()
                             plt.legend(loc=2, fontsize='15')  # Personalização da legenda
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
@@ -901,7 +901,7 @@ while x != ("cidade", "estado"):
                             dts2 = dts2.drop("state", axis=1)
                             dts2 = dts2.drop("place_type", axis=1)
 
-                            plt.plot(dts2['date'], dts2['new_deaths'], label='Casos', color='g', ls='--',
+                            plt.bar(dts2['date'], dts2['new_deaths'], label='Casos', color='g', ls='--',
                                     lw='2')  # Caso queira grafico de barras colocar - plt.bar()
                             plt.legend(loc=2, fontsize='15')  # Personalização da legenda
                             plt.ylabel('Casos Confirmados')  # Nome do Eixo Y
@@ -1076,8 +1076,8 @@ while x != ("cidade", "estado"):
                             colDT2 = colCD.loc[colCD["date"] == dt2]
                         colDT2 = colDT2.drop("state", axis=1)
                         colDT2 = colDT2.drop("place_type", axis=1)
-                        plt.bar(colDT2["date"], colDT2["new_deaths"], label="Óbitos confirmados")
-                        plt.bar(colDT2["date"], colDT2["new_confirmed"], label="Casos confirmados")
+                        plt.plot(colDT2["date"], colDT2["new_deaths"], label="Óbitos confirmados")
+                        plt.plot(colDT2["date"], colDT2["new_confirmed"], label="Casos confirmados")
                         plt.legend()
                         plt.title('Comparações')
                         plt.xlabel(f"{dt2}")
