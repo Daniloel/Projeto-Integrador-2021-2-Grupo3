@@ -37,6 +37,7 @@ AS Tecnologias abaixo foram utilizadas na construção do projeto.
 
 - Tutorial de instalação:
  Ao entrar na IDE ou no prompt do Python, digitar pip install matplotlib, pip install unidecode e pip install pandas
+ - Tutorial de download do programa: https://drive.google.com/file/d/1_yy_hI9iDBRMY05PL4KPAU5JnXUmmuzK/view?usp=sharing
 
 
 
