@@ -5,7 +5,7 @@
 
 ## Relevância do projeto:
  O projeto é relevante para sociedade, para que assim as pessoas tomem noção das proporções da pandemia nos últimos tempos. Mostrando dados precisos de pessoas contaminadas e
-que foram a óbito pela Covid 19, o que é muito importante a população saber sobre o COVID-19 e a partir desses dados tomar suas conclusões sobre a Doença e sobre a eficácia das medidas tomadas no estado de SP </p>
+que foram a óbito pela Covid 19, o que é muito importante a população saber sobre e a partir desses dados tomar suas conclusões sobre a Doença e sobre a eficácia das medidas tomadas no estado de SP </p>
 
 
 ## Objetivos:
